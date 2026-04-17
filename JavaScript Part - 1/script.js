@@ -10,3 +10,7 @@ var profession = "student"
 let a = 4
 let b = 3
 
+
+let age = 21
+let Cgpa = 3.2 
+
