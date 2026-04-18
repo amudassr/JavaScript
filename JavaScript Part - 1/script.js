@@ -15,9 +15,12 @@ let age = 21
 let Cgpa = 3.2 
 
 
-// Number & String in Js 
+// String in Js 
 
 let name ="Muhammad"
-let age = '21'
 let gmail = "mudassirgmail.com"
+
+
+// Number in Js 
+let age = '21'
 
