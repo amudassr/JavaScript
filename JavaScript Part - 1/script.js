@@ -17,10 +17,17 @@ let Cgpa = 3.2
 
 // String in Js 
 
-let name ="Muhammad"
+let name = "Muhammad"
 let gmail = "mudassirgmail.com"
 
 
-// Number in Js 
+// Number in Js  
 let age = '21'
+
+
+// let , var & const 
+let name = "alihasan"
+let age = "21"
+let phoneno = "023414114"
+
 
