@@ -30,4 +30,9 @@ let name = "alihasan"
 let age = "21"
 let phoneno = "023414114"
 
+// Operator Precedence 
+
+let operate = 5+4*10/2+3-5
+
+
 
