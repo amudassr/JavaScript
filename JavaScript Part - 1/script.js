@@ -49,4 +49,25 @@ age *= 2
 age /= 12
 
 
+// Uniary Operator 
+
+let age = 10;
+
+// post-increment | first print the same value then update it!
+age++;
+
+
+// pre-increment | first update the value then print the same value!
+++age;
+
+
+// post-decrement | first print the same value then update it!
+age--;
+
+
+// pre-decrement | first print the same value then update it!
+--age;
+
+
+
 
