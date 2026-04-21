@@ -70,4 +70,17 @@ age--;
 
 
 
+// Way of writing 
+
+// camelCase
+let firstName = "ali";
+
+// snake_case
+let first_name = "ali";
+
+// PascalCase
+let FirstName = "ali";
+
+
+
 
