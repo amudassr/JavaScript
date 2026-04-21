@@ -82,5 +82,20 @@ let first_name = "ali";
 let FirstName = "ali";
 
 
+// Boolean in JS 
+
+let age = 13;
+let isAdult = false;
+
+
+let age = 25;
+let isAdult = true;
+
+// change the tye of data in Js 
+
+let age = 18;
+age = true;
+
+
 
 
