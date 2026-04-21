@@ -97,5 +97,26 @@ let age = 18;
 age = true;
 
 
+// String in JS 
+let firstName = "Mudassir";
+typeof firstName
+
+let char = 'a';
+typeof char
+
+let num = "12345";
+typeof num
+
+let emp = "";
+typeof emp
+
+let sentence = 'this is a "word"';
+
+
+let sentence = "this is a 'word'";
+
+
+
+
 
 
