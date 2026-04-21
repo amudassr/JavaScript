@@ -38,5 +38,15 @@ let phoneno = "023414114"
 
 let operate = 5+4*10/2+3-5
 
+// Assignment Operators 
+let age = 24;
+age += 1;
+
+age -= 1
+
+age *= 2
+
+age /= 12
+
 
 
