@@ -115,6 +115,14 @@ let sentence = 'this is a "word"';
 
 let sentence = "this is a 'word'";
 
+//  undefined & null 
+// undefined 
+let a;
+
+// null 
+let a = null;
+
+
 
 
 
