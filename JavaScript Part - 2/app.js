@@ -25,7 +25,7 @@ console.log(x % y);
 console.log(x ** y);
 
 
-// Uniary Operators 
+// Unary Operators 
 let m = 10;
 console.log(m++);
 console.log(++m);
