@@ -55,3 +55,40 @@ age %= 2;
 console.log(age);
 
 
+
+// Comparison Operators
+
+// Greater then 
+let stdAge = 18;
+console.log(stdAge > 18);
+
+// Greater then or Equal to 
+stdAge = 18;
+console.log(stdAge >= 18);
+
+// Less then 
+stdAge = 18;
+console.log(stdAge < 18);
+
+// Less then or Equal to 
+stdAge = 18;
+console.log(stdAge <= 18);
+
+
+// Equal to 
+let num1 = 5;
+let num2 = 5;
+console.log(num1 == num2);
+
+let num = 4;
+let str = '4';
+console.log(num == str)
+
+
+
+// Not Equal to 
+let dig1 = 6;
+let dig2 = 6;
+console.log(dig1 != dig2);
+
+
