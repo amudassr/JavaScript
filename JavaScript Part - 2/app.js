@@ -117,12 +117,12 @@ console.log('*' > '&');
 // Scholarship statement 
 console.log('Before if statement');
 let Cgpa = 3.1;
-if(Cgpa>=3.2){
+if (Cgpa >= 3.2) {
     console.log("✅ congratulations")
     console.log("You are eligible for a scholarship.");
 }
 
-if(Cgpa<3.2){
+if (Cgpa < 3.2) {
     console.log("❌Unfortunately, you are not eligible for a scholarship.")
 }
 
@@ -131,25 +131,43 @@ console.log('After if statement');
 
 // Name Condition 
 let firstName = "Hamza";
-if(firstName == "Hamza"){
+if (firstName == "Hamza") {
     console.log(`Welcome ${firstName}`);
 }
 
 
 // Marks Condition 
 let marks = 75;
-if(marks>=44){
+if (marks >= 44) {
     console.log("✅ You passed the exam")
 }
 
 
 // Weather Condition 
 let temp = 25;
-if(temp>=35){
+if (temp >= 35) {
     console.log("🔥 It's hot outside")
 }
 
-if(temp<=25){
+if (temp <= 25) {
     console.log("🥶 Weather is cold")
 }
+
+
+// Traffic Light System 
+let color = "red";
+if (color === "red") {
+    console.log("🛑 Stop!");
+}
+
+if (color === "yellow") {
+    console.log("⚠️ Slow down");
+}
+
+if (color === "green") {
+    console.log("✅ Go");
+}
+
+
+
 
