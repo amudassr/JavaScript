@@ -170,4 +170,12 @@ if (color === "green") {
 
 
 
+// Car Spped Check 
+let speed = 71;
+if (speed <= 70) {
+    console.log("✅ Safe driving");
+}
+if (speed > 70) {
+    console.log("❌ Over speed, slow down");
+}
 
