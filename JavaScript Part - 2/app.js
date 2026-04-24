@@ -76,6 +76,7 @@ console.log(stdAge <= 18);
 
 
 // Equal to 
+// compares value, not type
 let num1 = 5;
 let num2 = 5;
 console.log(num1 == num2);
@@ -90,5 +91,23 @@ console.log(num == str)
 let dig1 = 6;
 let dig2 = 6;
 console.log(dig1 != dig2);
+
+console.log(6 != str);
+
+
+// compares type & values both
+
+let number = 123;
+let string = '123';
+console.log(number === string);
+
+
+// Compare with unicode of small & capital alphabet 
+
+console.log('a' < 'b');
+
+console.log('a' < 'A');
+
+console.log('*' > '&');
 
 
