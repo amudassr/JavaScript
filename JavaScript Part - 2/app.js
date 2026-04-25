@@ -179,3 +179,43 @@ if (speed > 70) {
     console.log("❌ Over speed, slow down");
 }
 
+
+
+// Else Statement 
+// Weight 
+let weight = 40;
+if(weight >=40) {
+    console.log("Your weight is 40 or above.")
+}
+else if (weight <40) {
+    console.log("Your weight is below 40.")
+}
+
+
+// Marks 
+let assg_marks = 85;
+if(assg_marks >80) {
+    console.log("Your Grade is A+");
+}
+else if(assg_marks >= 60) {
+    console.log("Your Grade is A");
+}
+else if(assg_marks >= 33) {
+    console.log("Your Grade is B")
+}
+
+else if(assg_marks <33) {
+    console.log("Your is Grade is F")
+}
+
+
+
+// Months 
+let month = "April";
+if(month === "Januaury") {
+    console.log("Winter is here 🥶");
+}
+
+else if(month === "April") {
+    console.log("Summer is here 🔥");
+};
