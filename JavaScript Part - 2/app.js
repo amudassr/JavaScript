@@ -268,5 +268,69 @@ else {
     console.log("❌invalid colors");
 }
 
+// Popcorn Prices System  
+let size = "s";
+if (size === "xl") {
+    console.log("price is Rs. 250");
+}
 
+else if (size === "l") {
+    console.log("price is Rs. 200");
+}
+
+else if (size === "m") {
+    console.log("price is Rs. 100");
+}
+
+else {
+    console.log("small size is not avaiable")
+}
+
+
+
+//  Mobile Battery Status
+let battery = 31;
+if (battery === 100) {
+    console.log("Fully charged!");
+}
+
+else if (battery >= 70) {
+    console.log("Battery is good.");
+}
+
+else if (battery >= 50) {
+    console.log("Battery Weak, please charge Soon")
+}
+
+else if (battery <= 30) {
+    console.log("Battery low, please charge.");
+}
+
+else {
+    console.log("Critical! Plug in now!");
+}
+
+
+
+// Game Score Rank 
+let score = 2500;
+if(score >= 10000) {
+    console.log("Rank: Legend 🏆");
+}
+
+else if(score >= 8000) {
+    console.log("Rank: Diamond 💎");
+}
+
+else if(score >= 5000) {
+    console.log("Rank: Gold 🥇");
+}
+
+else if(score >= 3000) {
+    console.log("Rank: Silver 🥈")
+}
+
+else {
+    console.log("Rank: Beginner 🔰");
+}
 
