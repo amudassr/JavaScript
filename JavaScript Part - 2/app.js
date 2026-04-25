@@ -114,6 +114,7 @@ console.log('*' > '&');
 
 
 // Conditional Statements
+// if Statements
 // Scholarship statement 
 console.log('Before if statement');
 let Cgpa = 3.1;
@@ -181,30 +182,30 @@ if (speed > 70) {
 
 
 
-// Else Statement 
+// Else if Statement 
 // Weight 
 let weight = 40;
-if(weight >=40) {
+if (weight >= 40) {
     console.log("Your weight is 40 or above.")
 }
-else if (weight <40) {
+else if (weight < 40) {
     console.log("Your weight is below 40.")
 }
 
 
 // Marks 
 let assg_marks = 85;
-if(assg_marks >80) {
+if (assg_marks > 80) {
     console.log("Your Grade is A+");
 }
-else if(assg_marks >= 60) {
+else if (assg_marks >= 60) {
     console.log("Your Grade is A");
 }
-else if(assg_marks >= 33) {
+else if (assg_marks >= 33) {
     console.log("Your Grade is B")
 }
 
-else if(assg_marks <33) {
+else if (assg_marks < 33) {
     console.log("Your is Grade is F")
 }
 
@@ -212,10 +213,60 @@ else if(assg_marks <33) {
 
 // Months 
 let month = "April";
-if(month === "Januaury") {
+if (month === "Januaury") {
     console.log("Winter is here 🥶");
 }
 
-else if(month === "April") {
+else if (month === "April") {
     console.log("Summer is here 🔥");
 };
+
+
+
+// Else Statement 
+let issb = "recommend";
+if (issb === "recommend") {
+    console.log("you get selected");
+}
+
+else {
+    console.log("you not get selected");
+}
+
+
+//  Login Check 
+let username = "mudassir";
+let password = "12345";
+if (username === "mudassir" & password === "1234") {
+    console.log("Login successful!");
+}
+else {
+    console.log("Wrong username or password!");
+}
+
+
+
+// Colors Sign 
+let colors = "blue";
+if (colors === "red") {
+    console.log("Danger · Alert · Stop ☠️")
+}
+
+else if (colors === "green") {
+    console.log("Success · Go · Safe 🏆")
+}
+
+else if (colors === "yellow") {
+    console.log("Caution · Happy · Warm 😊")
+}
+
+else if (colors === "black") {
+    console.log("Power · Elegance · Death 💪🏻")
+}
+
+else {
+    console.log("❌invalid colors");
+}
+
+
+
