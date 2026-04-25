@@ -314,19 +314,19 @@ else {
 
 // Game Score Rank 
 let score = 2500;
-if(score >= 10000) {
+if (score >= 10000) {
     console.log("Rank: Legend 🏆");
 }
 
-else if(score >= 8000) {
+else if (score >= 8000) {
     console.log("Rank: Diamond 💎");
 }
 
-else if(score >= 5000) {
+else if (score >= 5000) {
     console.log("Rank: Gold 🥇");
 }
 
-else if(score >= 3000) {
+else if (score >= 3000) {
     console.log("Rank: Silver 🥈")
 }
 
@@ -334,3 +334,75 @@ else {
     console.log("Rank: Beginner 🔰");
 }
 
+
+
+// Nested if else 
+let obtained_marks = 82;
+if (obtained_marks >= 33) {
+    console.log("Pass");
+    if (obtained_marks >= 80) {
+        console.log("Grade: A+ 🏆");
+    }
+
+    else if (obtained_marks >= 70) {
+        console.log("Grade: A 🥇");
+    }
+
+    else {
+        console.log("keep work hard 🔰")
+    }
+}
+
+else {
+    console.log("Better luck next time!");
+}
+
+
+
+//  University Admission 
+
+let uni_age = 20;
+let uni_marks = 80;
+
+if (uni_age >= 18) {
+    console.log("you are eligible for admission");
+    if (uni_marks >= 80) {
+        console.log("Congrates! you get admission in Soft Eng")
+    }
+
+    else if (uni_marks >= 60) {
+        console.log("Welcome! you get admission in Computer Eng")
+    }
+
+    else {
+        console.log("But! your merit is low you are in waiting list")
+    }
+}
+
+else {
+    console.log("you are not eligible for admission");
+}
+
+
+
+// Online Shopping Discount 
+let user = "member";
+let bill = 8000;
+if(user === "member") {
+    console.log("Welcome! you are member of our store.");
+    if(bill >= 15000) {
+        console.log("congrates! you get 20% discount.");
+    }
+
+    else if(bill >= 8000) {
+        console.log("congrates! you get 10% discount.");
+    }
+
+    else {
+        console.log("please spend 8000 PKR and get 10% off.");
+    }
+}
+
+else {
+    console.log("Sign up here to become our member");
+}
