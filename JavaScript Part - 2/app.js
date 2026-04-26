@@ -490,3 +490,49 @@ else {
     console.log("Sorry! We are closed. Please visit tomorrow.");
 }
 
+
+
+// Logical Operators 
+// AND && Operator 
+
+let mathMarks = 84;
+if (mathMarks >= 33 && mathMarks >= 80) {
+    console.log("Pass");
+    console.log("A+");
+}
+else {
+    console.log("Fail");
+}
+
+
+
+// OR || Operator 
+
+let engMarks = 33;
+if (engMarks >= 33 || engMarks >= 80) {
+    console.log("Promoted");
+    console.log("A1")
+}
+else {
+    console.log("Fail");
+}
+
+
+// NOT ! Operator 
+
+let sciMarks = 36;
+if( !(sciMarks < 33)) {
+    console.log("Pass");
+}
+
+else {
+    console.log("Fail");
+}
+
+
+// Combine Operators 
+
+let combineMarks = 20;
+if ((combineMarks > 33 && combineMarks <= 80) || !false ) {
+    console.log("Finally Pass!");
+}
