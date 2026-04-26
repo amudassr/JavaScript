@@ -521,7 +521,7 @@ else {
 // NOT ! Operator 
 
 let sciMarks = 36;
-if( !(sciMarks < 33)) {
+if (!(sciMarks < 33)) {
     console.log("Pass");
 }
 
@@ -533,6 +533,30 @@ else {
 // Combine Operators 
 
 let combineMarks = 20;
-if ((combineMarks > 33 && combineMarks <= 80) || !false ) {
+if ((combineMarks > 33 && combineMarks <= 80) || !false) {
     console.log("Finally Pass!");
+}
+
+
+
+// Practise Qs For Operators 
+
+let gstr = "apple";
+if (gstr[0] === "a" && gstr.length > 3) {
+    console.log("good gtring");
+}
+
+else {
+    console.log("not good string");
+}
+
+
+
+let num_digit = 12;
+if (num_digit % 3 == 0 && num_digit + 1 == 15 || num_digit - 1 == 11) {
+    console.log("Safe");
+}
+
+else {
+    console.log("Unsafe")
 }
