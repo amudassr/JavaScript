@@ -184,6 +184,7 @@ if (speed > 70) {
 
 // Else if Statement 
 // Weight 
+
 let weight = 40;
 if (weight >= 40) {
     console.log("Your weight is 40 or above.")
@@ -194,6 +195,7 @@ else if (weight < 40) {
 
 
 // Marks 
+
 let assg_marks = 85;
 if (assg_marks > 80) {
     console.log("Your Grade is A+");
@@ -212,6 +214,7 @@ else if (assg_marks < 33) {
 
 
 // Months 
+
 let month = "April";
 if (month === "Januaury") {
     console.log("Winter is here 🥶");
@@ -235,6 +238,7 @@ else {
 
 
 //  Login Check 
+
 let username = "mudassir";
 let password = "12345";
 if (username === "mudassir" & password === "1234") {
@@ -268,7 +272,9 @@ else {
     console.log("❌invalid colors");
 }
 
+
 // Popcorn Prices System  
+
 let size = "s";
 if (size === "xl") {
     console.log("price is Rs. 250");
@@ -289,6 +295,7 @@ else {
 
 
 //  Mobile Battery Status
+
 let battery = 31;
 if (battery === 100) {
     console.log("Fully charged!");
@@ -313,6 +320,7 @@ else {
 
 
 // Game Score Rank 
+
 let score = 2500;
 if (score >= 10000) {
     console.log("Rank: Legend 🏆");
@@ -337,6 +345,7 @@ else {
 
 
 // Nested if else 
+
 let obtained_marks = 82;
 if (obtained_marks >= 33) {
     console.log("Pass");
@@ -386,15 +395,16 @@ else {
 
 
 // Online Shopping Discount 
+
 let user = "member";
 let bill = 8000;
-if(user === "member") {
+if (user === "member") {
     console.log("Welcome! you are member of our store.");
-    if(bill >= 15000) {
+    if (bill >= 15000) {
         console.log("congrates! you get 20% discount.");
     }
 
-    else if(bill >= 8000) {
+    else if (bill >= 8000) {
         console.log("congrates! you get 10% discount.");
     }
 
@@ -406,3 +416,77 @@ if(user === "member") {
 else {
     console.log("Sign up here to become our member");
 }
+
+
+
+// Flight Boarding System 
+
+let ticket = "valid";
+let luggageWeight = 9;
+if (ticket === "valid") {
+    console.log("Welcome! Your ticket is valid.");
+    if (luggageWeight < 20) {
+        console.log(`Boarding pass issued. Have a safe flight!`);
+    }
+
+    else if (luggageWeight >= 20) {
+        console.log(`Extra luggage charges: Rs. 500 per kg.`);
+    }
+}
+
+else {
+    console.log("Entry denied! Ticket is not valid.");
+}
+
+
+
+//  Gym Membership 
+
+let gymAge = 17;
+let gymPlan = "premium";
+
+if (gymAge >= 16) {
+    console.log("Get Fit with us! Started Today");
+    if (gymPlan === "basic") {
+        console.log("Access granted: Cardio area only.");
+    }
+
+    else if (gymPlan === "premium") {
+        console.log("Access granted: Cardio + Weights area.");
+    }
+
+    else if (gymPlan === "vip") {
+        console.log("Access granted: Full gym + Personal trainer!");
+    }
+
+    else {
+        console.log("Access denied: please must before exercise buy a plan")
+    }
+}
+
+else {
+    console.log("Sorry! Adults only. Age must be 16+")
+}
+
+
+
+// Pizza Order System 
+
+let restaurantStatus = "open";
+let distance = 11;
+
+if (restaurantStatus === "open") {
+    console.log("Your table is booked. Welcome!");
+    if (distance >= 10) {
+        console.log("Order confirmed! Delivery charge: Rs. 100");
+    }
+
+    else if (distance < 10) {
+        console.log("Sorry! Delivery not available in your area.");
+    }
+}
+
+else {
+    console.log("Sorry! We are closed. Please visit tomorrow.");
+}
+
