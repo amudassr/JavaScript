@@ -558,5 +558,49 @@ if (num_digit % 3 == 0 && num_digit + 1 == 15 || num_digit - 1 == 11) {
 }
 
 else {
-    console.log("Unsafe")
+    console.log("Unsafe");
+}
+
+
+
+// Bank Loan System
+
+let userAge = 24;
+let userSalary = 50000;
+let creditScore = 600;
+
+if(userAge >= 21 && userSalary >= 30000 && creditScore >= 700) {
+    console.log("Loan Approved! ✅");
+}
+
+else if(userAge >= 21 && userSalary >= 50000) {
+    console.log("Loan conditionally approved. Credit score low ⚠️")
+}
+
+else {
+    console.log("Loan Rejected!!!");
+}
+
+
+
+//  Game Character Status
+
+let health = 32;
+let shield = 1;
+let lives = 5;
+
+if(health >= 50 && shield > 0 && lives > 0) {
+    console.log("Character is Safe 🛡️");
+}
+
+else if(health <= 20 && shield < 1) {
+    console.log("Danger! Low health or no shield ⚠️");
+}
+
+else if(health > 20 && health < 50 && shield > 0) {
+    console.log("Character is Recovering... ⚡");
+}
+
+else {
+    console.log("Game Over 💀");
 }
