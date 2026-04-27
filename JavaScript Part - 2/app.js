@@ -604,3 +604,42 @@ else if(health > 20 && health < 50 && shield > 0) {
 else {
     console.log("Game Over 💀");
 }
+
+
+
+//  Driving License System 
+
+let applicantAge = 20;
+let eyesightScore = 80;
+let testPassed = true;
+let hasCriminalRecord = false;
+
+if (hasCriminalRecord === true || applicantAge < 18) {
+    console.log("License Rejected ❌");
+} else if (applicantAge >= 18 && testPassed === true && eyesightScore >= 70) {
+    console.log("License Approved ✅");
+} else if (applicantAge >= 18) {
+    console.log("Re-apply License ⚠️");
+} else {
+    console.log("Invalid Application");
+}
+
+
+
+
+// Hospital Emergency System 
+
+let patientAge = 65;
+let heartRate = 125;
+let bloodPressure = 170;
+let isAccident = false;
+
+if (patientAge >= 60 && heartRate >= 120) {
+    console.log("Shift in ICU 🚨");
+} else if (isAccident === true || bloodPressure >= 180) {
+    console.log("Emergency Room 🏃");
+} else if (patientAge < 18) {
+    console.log("Children Ward 👶");
+} else {
+    console.log("General Ward 🏥");
+}
