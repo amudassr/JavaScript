@@ -569,11 +569,11 @@ let userAge = 24;
 let userSalary = 50000;
 let creditScore = 600;
 
-if(userAge >= 21 && userSalary >= 30000 && creditScore >= 700) {
+if (userAge >= 21 && userSalary >= 30000 && creditScore >= 700) {
     console.log("Loan Approved! ✅");
 }
 
-else if(userAge >= 21 && userSalary >= 50000) {
+else if (userAge >= 21 && userSalary >= 50000) {
     console.log("Loan conditionally approved. Credit score low ⚠️")
 }
 
@@ -589,15 +589,15 @@ let health = 32;
 let shield = 1;
 let lives = 5;
 
-if(health >= 50 && shield > 0 && lives > 0) {
+if (health >= 50 && shield > 0 && lives > 0) {
     console.log("Character is Safe 🛡️");
 }
 
-else if(health <= 20 && shield < 1) {
+else if (health <= 20 && shield < 1) {
     console.log("Danger! Low health or no shield ⚠️");
 }
 
-else if(health > 20 && health < 50 && shield > 0) {
+else if (health > 20 && health < 50 && shield > 0) {
     console.log("Character is Recovering... ⚡");
 }
 
@@ -609,37 +609,97 @@ else {
 
 //  Driving License System 
 
-let applicantAge = 20;
-let eyesightScore = 80;
-let testPassed = true;
-let hasCriminalRecord = false;
+let drivingAge = "19";
+let eyesight = 72;
+let testPassed = "Pass";
+let crimninalRecord = "Criminal record";
 
-if (hasCriminalRecord === true || applicantAge < 18) {
+if (crimninalRecord !== "No record" || drivingAge < 18) {
     console.log("License Rejected ❌");
-} else if (applicantAge >= 18 && testPassed === true && eyesightScore >= 70) {
+}
+
+else if (drivingAge > 18 && testPassed === "Pass" && eyesight >= 70) {
     console.log("License Approved ✅");
-} else if (applicantAge >= 18) {
-    console.log("Re-apply License ⚠️");
-} else {
+}
+
+else if (drivingAge > 18 && testPassed === "Fail" || eyesight < 70) {
+    console.log("License Re-apply ⚠️");
+}
+
+else {
     console.log("Invalid Application");
 }
 
 
 
+// Hospital Emergency System
 
-// Hospital Emergency System 
+let patientAge = 17;
+let patientHeartRate = 129;
+let patientBloodPressure = 179;
+let patientAccident = "No";
 
-let patientAge = 65;
-let heartRate = 125;
-let bloodPressure = 170;
-let isAccident = false;
+if(patientAge >= 60 && patientHeartRate >= 120) {
+    console.log("Shifted in ICU 🚨");
+}
 
-if (patientAge >= 60 && heartRate >= 120) {
-    console.log("Shift in ICU 🚨");
-} else if (isAccident === true || bloodPressure >= 180) {
-    console.log("Emergency Room 🏃");
-} else if (patientAge < 18) {
-    console.log("Children Ward 👶");
-} else {
-    console.log("General Ward 🏥");
+else if(patientAccident === "Yes" || patientBloodPressure > 180) {
+    console.log("Shifted in Emergency Room 🏃");
+}
+
+else if(patientAge < 18) {
+    console.log("Shifted in Children Ward 👶");
+}
+
+else {
+    console.log("Shifted in General Ward 🏥");
+}
+
+
+
+
+// K Electric Bill System 
+
+let unitUsed = 190;
+let billAmount = 3000;
+let monthsUnpaid = 2;
+
+if(monthsUnpaid >= 2 && billAmount >= 5000) {
+    console.log("Connection Cut ✂️");
+}
+
+else if(unitUsed > 400 || billAmount > 2500) {
+    console.log("Heavy Bill Warning ⚠️");
+}
+
+else if(unitUsed < 200) {
+    console.log("Normal Usage ✅");
+}
+
+else {
+    console.log("Standard Bill 🧾");
+}
+
+
+
+// School Result System
+
+let schoolMarks = 80;
+let schoolAttendence = 76;
+let examCheating = "No";
+
+if(examCheating === "Yes") {
+    console.log("Exam Cancelled 🚫");
+}
+
+else if(schoolMarks > 80 && schoolAttendence > 75) {
+    console.log("Distinction 🏆");
+}
+
+else if(schoolMarks > 50 && schoolAttendence > 60) {
+    console.log("Pass ✅");
+}
+
+else {
+    console.log("Fail ❌");
 }
