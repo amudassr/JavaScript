@@ -703,3 +703,29 @@ else if(schoolMarks > 50 && schoolAttendence > 60) {
 else {
     console.log("Fail ❌");
 }
+
+
+
+// truthy & falsy values
+
+if(undefined) {
+    console.log("it has true value");
+}
+
+else {
+    console.log("it has false value");
+}
+
+let newstring = " ";
+if(newstring) {
+    console.log("string in not empty");
+}
+
+else {
+    console.log("string is empty");
+}
+// Falsy values 
+// false, 0, -0, 0n(BigInt value), ""(Empty String), null, undefined, NaN
+
+// Truthy values
+// Everthing else like (1, 2 ,3 ... , -1, -2, -3 .. , any string, spacing string) 
