@@ -639,15 +639,15 @@ let patientHeartRate = 129;
 let patientBloodPressure = 179;
 let patientAccident = "No";
 
-if(patientAge >= 60 && patientHeartRate >= 120) {
+if (patientAge >= 60 && patientHeartRate >= 120) {
     console.log("Shifted in ICU 🚨");
 }
 
-else if(patientAccident === "Yes" || patientBloodPressure > 180) {
+else if (patientAccident === "Yes" || patientBloodPressure > 180) {
     console.log("Shifted in Emergency Room 🏃");
 }
 
-else if(patientAge < 18) {
+else if (patientAge < 18) {
     console.log("Shifted in Children Ward 👶");
 }
 
@@ -664,15 +664,15 @@ let unitUsed = 190;
 let billAmount = 3000;
 let monthsUnpaid = 2;
 
-if(monthsUnpaid >= 2 && billAmount >= 5000) {
+if (monthsUnpaid >= 2 && billAmount >= 5000) {
     console.log("Connection Cut ✂️");
 }
 
-else if(unitUsed > 400 || billAmount > 2500) {
+else if (unitUsed > 400 || billAmount > 2500) {
     console.log("Heavy Bill Warning ⚠️");
 }
 
-else if(unitUsed < 200) {
+else if (unitUsed < 200) {
     console.log("Normal Usage ✅");
 }
 
@@ -688,15 +688,15 @@ let schoolMarks = 80;
 let schoolAttendence = 76;
 let examCheating = "No";
 
-if(examCheating === "Yes") {
+if (examCheating === "Yes") {
     console.log("Exam Cancelled 🚫");
 }
 
-else if(schoolMarks > 80 && schoolAttendence > 75) {
+else if (schoolMarks > 80 && schoolAttendence > 75) {
     console.log("Distinction 🏆");
 }
 
-else if(schoolMarks > 50 && schoolAttendence > 60) {
+else if (schoolMarks > 50 && schoolAttendence > 60) {
     console.log("Pass ✅");
 }
 
@@ -708,7 +708,7 @@ else {
 
 // truthy & falsy values
 
-if(undefined) {
+if (undefined) {
     console.log("it has true value");
 }
 
@@ -716,16 +716,211 @@ else {
     console.log("it has false value");
 }
 
+
+// Falsy values 
+// false, 0, -0, 0n(BigInt value), ""(Empty String), null, undefined, NaN
+
+// Truthy values
+// Everthing else like (1, 2 ,3 ... , -1, -2, -3 .. , any string, spacing string) 
+
 let newstring = " ";
-if(newstring) {
+if (newstring) {
     console.log("string in not empty");
 }
 
 else {
     console.log("string is empty");
 }
-// Falsy values 
-// false, 0, -0, 0n(BigInt value), ""(Empty String), null, undefined, NaN
 
-// Truthy values
-// Everthing else like (1, 2 ,3 ... , -1, -2, -3 .. , any string, spacing string) 
+
+
+// Switch Statement 
+
+let switchColor = "yellow";
+
+switch (switchColor) {
+    case "red":
+        console.log("stop!");
+        break;
+    case "yellow":
+        console.log("slow down");
+        break;
+    case "green":
+        console.log("Go");
+        break;
+    default: {
+        console.log("Broken Light");
+    }
+
+}
+
+
+
+// Switch Statement Practise 
+
+// Day Series
+let day = "5";
+switch (day) {
+    case "1":
+        console.log("Today is Saturday");
+        break;
+    case "2":
+        console.log("Today is Sunday");
+        break;
+    case "3":
+        console.log("Today is Monday");
+        break;
+    case "4":
+        console.log("Today is Tuesday");
+        break;
+    case "5":
+        console.log("Today is Wednesday");
+        break;
+    case "6":
+        console.log("Today is Thursday");
+        break;
+    case "7":
+        console.log("Today is Friday");
+        break;
+    default: {
+        console.log("Invalid day");
+    }
+}
+
+
+// Month Series 
+let switchMonth = "4month";
+switch (switchMonth) {
+    case "1month":
+        console.log("1st is January");
+        break;
+    case "2month":
+        console.log("2nd is Febuary");
+        break;
+    case "3month":
+        console.log("3rd is March");
+        break;
+    case "4month":
+        console.log("4th is April");
+        break;
+    case "5month":
+        console.log("5th is May");
+        break;
+    case "6month":
+        console.log("6th is June");
+        break;
+    case "7month":
+        console.log("7th is July");
+        break;
+    case "8month":
+        console.log("8th is August");
+        break;
+    case "9month":
+        console.log("9th is September");
+        break;
+    case "10month":
+        console.log("10th is October");
+        break;
+    case "11month":
+        console.log("11th is NOvember");
+        break;
+    case "12month":
+        console.log("12th is December");
+        break;
+    default: {
+        console.log("Invalid Month");
+    }
+}
+
+
+
+// Grade Series 
+let switchGrade = "B";
+switch (switchGrade) {
+    case "A":
+        console.log("Excellent! 🏆");
+        break;
+    case "B":
+        console.log("Good Job! ✅");
+        break;
+    case "C":
+        console.log("Average ⚠️");
+        break;
+    case "D":
+        console.log("Below Average 📉");
+        break;
+    case "E":
+        console.log("Fail ❌");
+        break;
+    default: {
+        console.log("Invalid Grade");
+    }
+}
+
+
+
+// Season Series 
+let switchSeason = "winter";
+switch (switchSeason) {
+    case "summer":
+        console.log("Summer ☀️");
+        break;
+    case "winter":
+        console.log("Winter ❄️");
+        break;
+    case "spring":
+        console.log("Spring 🌸");
+        break;
+    case "autumn":
+        console.log("Autumn 🍂");
+        break;
+    default: {
+        console.log("Invalid Season");
+    }
+}
+
+
+// PaymentMethod Series  
+let switchpayment = "easypaisa";
+switch (switchpayment) {
+    case "cash":
+        console.log("Pay at counter 💵");
+        break;
+
+    case "card":
+        console.log("wipe your card 💳");
+        break;
+
+    case "easypaisa":
+    case "jazzcash":
+        console.log("Enter your number 📱");
+        break;
+
+    default: {
+        console.log("Invalid Payment Method");
+    }
+}
+
+
+
+// Alerts & Prompts 
+
+// alert 
+// alert("Something is wrong!");
+
+// console log 
+console.log("Good Morning, Have a nice day!");
+
+// console error 
+console.error("this is an error message");
+
+// console warning 
+console.warn("this is warning message");
+
+
+// Prompts
+
+let fName = prompt("enter first name :");
+let lName = prompt("enter last name");
+let msg = `Welcome ${fName + lName} !`; 
+alert(msg);
