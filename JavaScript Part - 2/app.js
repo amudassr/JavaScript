@@ -920,7 +920,40 @@ console.warn("this is warning message");
 
 // Prompts
 
-let fName = prompt("enter first name :");
-let lName = prompt("enter last name");
-let msg = `Welcome ${fName + lName} !`; 
-alert(msg);
+// let fName = prompt("enter first name :");
+// let lName = prompt("enter last name");
+// let msg = `Welcome ${fName}  ${lName} !`; 
+// alert(msg);
+
+
+//  Pizza Order System
+
+// let customerName = prompt("Enter your name :") ;
+// let pizzaSize = prompt("Your pizza size (Small,Medium)");
+// let orderConfirm = `${customerName} your ${pizzaSize} pizza order confirm`;
+// alert(orderConfirm);
+
+
+// Bank Greeting System
+
+// let bankUserName = prompt("Enter your name");
+// let bankUserCity = prompt("Enter your city");
+// let bankUserLogin = `Welcome ${bankUserName} you login in your ${bankUserCity} branch`;
+// alert(bankUserLogin);
+
+
+// Student Result System 
+
+// let studentName = prompt("Enter student name");
+// let studentMarks = prompt("Enter student marks");
+// let studentResult = `${studentName} you got ${studentMarks}%`;
+// alert(studentResult);
+
+
+
+//  Flight Booking System
+
+let passengerName = prompt("Enter passenger name");
+let passengerDest = prompt("Enter destination city");
+let passengerFlight = `${passengerName} your flight ✈️ has book for ${passengerDest}`;
+alert(passengerFlight);
