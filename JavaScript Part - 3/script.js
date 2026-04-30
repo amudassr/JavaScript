@@ -80,3 +80,50 @@ console.log("Fruit is repeated 3 times: "+ fruit);
 let color = "Black";
 let newColor = color.repeat(5);
 console.log("Color is repeat 5 times " + newColor);
+
+
+
+// Practise Qs: 1
+
+let msg = "help!";
+let newMsg = msg.trim().toUpperCase();
+console.log(newMsg);
+
+// Practise Qs: 2
+
+// Slice Method
+
+let schoolName = "Bahria Model School";
+schoolName =schoolName.slice((6), (schoolName.length));
+console.log(schoolName)
+
+let collegeName = "Bahria College";
+collegeName = collegeName.slice((6), (14));
+console.log(collegeName);
+
+let uniName = "Virtual University";
+uniName = uniName.slice((-3));
+console.log(uniName);
+
+// IndexOf Method
+
+let firstName = "Muhammad";
+firstName = firstName.indexOf("h");
+console.log(firstName);
+
+// Replace Method 
+
+let lastName = "Mudassir";
+let fullName = lastName.replace(("Mudassir"),("Muhammad"));
+console.log("This is "+ fullName);
+
+// Practise Qs: 3
+
+let center = "MyCollege";
+center = center.slice((2));
+console.log(center);
+
+center = center.replace(("ll"), ("tt"));
+console.log(center);
+
+
