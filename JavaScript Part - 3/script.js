@@ -52,3 +52,19 @@ console.log(fName.slice(4, fName.length));
 // 3rd Method (Negative Value)
 let stuId = "bc2404";
 console.log(stuId.slice(-6)); 
+
+
+// Replace Method 
+
+let position = "Web Designer";
+let Position = (position.replace("Designer"),("Developer"));
+console.log(Position);
+
+let post = "Junior Soft Engineer";
+post =(post.replace("Junior"),("Senior"));
+console.log(post +" Soft Engineer");
+
+
+let bloodGroup = "B ve+";
+bloodGroup = bloodGroup.replace(("B ve+"), ("O ve-"));
+console.log("Your blood group is " + bloodGroup);
