@@ -68,3 +68,15 @@ console.log(post +" Soft Engineer");
 let bloodGroup = "B ve+";
 bloodGroup = bloodGroup.replace(("B ve+"), ("O ve-"));
 console.log("Your blood group is " + bloodGroup);
+
+
+// Repeat Method 
+
+let fruit = "Mango";
+fruit = fruit.repeat(3);
+console.log("Fruit is repeated 3 times: "+ fruit);
+
+
+let color = "Black";
+let newColor = color.repeat(5);
+console.log("Color is repeat 5 times " + newColor);
