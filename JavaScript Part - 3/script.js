@@ -127,3 +127,27 @@ center = center.replace(("ll"), ("tt"));
 console.log(center);
 
 
+
+// Arrays
+
+// Same type of array 
+let numArray = [2,4,6,8];
+console.log(numArray);
+
+let studentArray = ["sabir","hamza","hassan","ali"];
+console.log(studentArray[1]);
+
+
+// Different type of array 
+let info = ["Muhammad", 22 , 71.34];
+console.log(info[0]);
+
+
+console.log(info[0][0]);
+console.log(info[0].length)
+
+// Empty Array 
+let emptArray = [];
+console.log(emptArray);
+
+
