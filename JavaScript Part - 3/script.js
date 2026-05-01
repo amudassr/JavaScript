@@ -151,3 +151,26 @@ let emptArray = [];
 console.log(emptArray);
 
 
+
+// Mutable Array 
+
+
+// String are inmutable 
+let strName = "Hamid"
+console.log(strName)
+
+strName[2] = "J";
+console.log(strName[2]);
+console.log(strName);
+
+
+// Array are mutable 
+
+let fruits = ["apple","mango","pear"];
+console.log(fruits);
+
+fruits[6] = "banana";
+console.log(fruits)
+
+
+
