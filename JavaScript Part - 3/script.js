@@ -222,3 +222,23 @@ console.log(months)
 // add july 
 months.unshift("july");
 console.log(months);
+
+
+// indexOf & include methods 
+
+// indexOf Method 
+let findMonths =months.indexOf("june");
+console.log(findMonths);
+
+findMonths =months.indexOf("august");
+console.log(findMonths);
+
+
+// include Method 
+
+let newMonths = months.includes("march");
+console.log(newMonths);
+
+newMonths = months.includes("jan");
+console.log(newMonths);
+
