@@ -303,3 +303,45 @@ season.splice(4);
 console.log(season);
 season.splice(0, 2);
 console.log(season)
+
+
+
+
+
+
+
+// Methods with Arguments - indexOf 
+
+let oldMssg = "hello world!";
+let updateMssg = oldMssg.indexOf('o');
+console.log(updateMssg);
+
+// Trim Method
+
+let oldText = "      Hello!  ";
+let newText = oldText.trim();
+console.log(newText);
+
+
+// ToUpperCase  
+
+let studentId = "mudassir141";
+console.log(studentId)
+let uniId = studentId.toUpperCase();
+console.log(uniId);
+
+
+// ToLowerCase
+
+let studentRollNo = "MUDASSIR141";
+console.log(studentRollNo)
+let uniRollNo = studentRollNo.toLowerCase();
+console.log(uniRollNo);
+
+
+// Method Channing 
+
+let empName = "  Hamza Ali     ";
+console.log(empName);
+let employee = empName.trim().toUpperCase();
+console.log(employee);
