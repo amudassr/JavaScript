@@ -259,3 +259,47 @@ console.log(revPrimary);
 
 let revSecondary = secondary.reverse();
 console.log(revSecondary);
+
+
+
+// Slice in Array 
+
+let days = ["monday","tuesday","wednesday","thursday","friday"]
+console.log(days.slice());
+console.log(days.slice(2));
+console.log(days.slice(2, 3))
+console.log(days.slice(2, 4));
+console.log(days.slice(-2));
+
+
+// Splice in Array 
+
+let season = ["summer", "winter", "autumn", "spring"];
+console.log(season.splice(3));
+console.log(season);
+console.log(season.splice(0, 1));
+console.log(season);
+season.push("black", "gray");
+console.log(season);
+season.pop();
+console.log(season);
+season.pop();
+console.log(season);
+season.unshift("pink");
+console.log(season)
+season.shift();
+console.log(season);
+season.push("orange","pink","gray");
+console.log(season);
+season.splice(1, 2);
+console.log(season)
+season.splice(5, 5,"autumn","orange");
+console.log(season);
+season.splice(1, 0, "white");
+console.log(season);
+season.splice(1, 1, "Off White");
+console.log(season)
+season.splice(4);
+console.log(season);
+season.splice(0, 2);
+console.log(season)
