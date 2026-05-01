@@ -242,3 +242,20 @@ console.log(newMonths);
 newMonths = months.includes("jan");
 console.log(newMonths);
 
+
+// Concatenation Array
+
+let primary = ["red","green","blue"];
+let secondary = ["black", "white","violet"];
+
+let allColors = primary.concat(secondary);
+console.log(allColors);
+
+
+// Reverse Array 
+
+let revPrimary = primary.reverse();
+console.log(revPrimary);
+
+let revSecondary = secondary.reverse();
+console.log(revSecondary);
