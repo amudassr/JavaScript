@@ -201,3 +201,24 @@ let removeCars = cars.shift();
 console.log(removeCars);
 console.log(cars);
 
+
+// Practise Qs 
+
+let months = ["january","july","march","august"];
+console.log(months)
+
+// remove january 
+months.shift();
+console.log(months)
+
+// remove july 
+months.shift();
+console.log(months)
+
+// add june
+months.unshift("june");
+console.log(months)
+
+// add july 
+months.unshift("july");
+console.log(months);
