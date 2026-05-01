@@ -173,4 +173,31 @@ fruits[6] = "banana";
 console.log(fruits)
 
 
+// Array Methods 
+
+let cars = ["audi","bmw","suzuki","toyota"];
+console.log(cars);
+
+// Push: add to end 
+
+cars.push("Lexus");
+console.log(cars);
+
+// Pop: delete from end & returns it 
+
+let delCars = cars.pop();
+console.log(delCars);
+console.log(cars)
+
+
+// UnShift: add to start 
+
+cars.unshift("Mercedes");
+console.log(cars);
+
+// Shift: delete from start & return it 
+
+let removeCars = cars.shift();
+console.log(removeCars);
+console.log(cars);
 
