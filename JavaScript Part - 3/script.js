@@ -345,3 +345,25 @@ let empName = "  Hamza Ali     ";
 console.log(empName);
 let employee = empName.trim().toUpperCase();
 console.log(employee);
+
+
+// Slice Method 
+
+// 1st Method 
+let jobIntern = "Web Developer";
+let jobPosition = jobIntern.slice((0), (8));
+console.log(jobPosition);
+
+
+// 2nd Method 
+
+jobIntern = "web Developer";
+jobPosition = jobIntern.slice((2), (jobIntern.length));
+console.log(jobPosition);
+
+
+// 3rd Method 
+
+jobIntern = "web Developer";
+jobPosition = jobIntern.slice(-4);
+console.log(jobPosition);
