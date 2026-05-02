@@ -350,6 +350,7 @@ console.log(employee);
 // Slice Method 
 
 // 1st Method 
+
 let jobIntern = "Web Developer";
 let jobPosition = jobIntern.slice((0), (8));
 console.log(jobPosition);
@@ -362,8 +363,59 @@ jobPosition = jobIntern.slice((2), (jobIntern.length));
 console.log(jobPosition);
 
 
-// 3rd Method 
+// 3rd Method  
 
 jobIntern = "web Developer";
 jobPosition = jobIntern.slice(-4);
 console.log(jobPosition);
+
+
+
+// slice 1st method example 
+
+let hellomsg = "hello!"
+let helloreply = hellomsg.slice(2);
+console.log(helloreply);
+
+
+// Trim 
+
+let stuName = "    Muhammad Ibrahim   ";
+let newStuName = stuName.trim();
+console.log(newStuName);
+
+
+// toUpperCase 
+
+let uperName = "Muhammad Ibrahim";
+let newUperName = uperName.toUpperCase();
+console.log(newUperName);
+
+
+// toLowerCase 
+
+let lowNmae = "MUHAMMAD";
+let newLowName = lowNmae.toLowerCase();
+console.log(newLowName);
+
+// indexOf
+
+let indName = "Muhammad";
+let newIndName = indName.indexOf('a');
+console.log(newIndName);
+
+// replace
+
+let repName = "Muhammad"
+let newRepName = repName.replace("Muhammad", "Mudassir");
+console.log(newRepName);
+
+// repeat 
+
+let repFruit = "Mango";
+let newRepFruit = repFruit.repeat(5);
+console.log(newRepFruit);
+
+
+
+
