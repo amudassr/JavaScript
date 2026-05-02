@@ -155,7 +155,7 @@ console.log(emptArray);
 // Mutable Array 
 
 
-// String are inmutable 
+// String are immutable 
 let strName = "Hamid"
 console.log(strName)
 
@@ -227,7 +227,7 @@ console.log(months);
 // indexOf & include methods 
 
 // indexOf Method 
-let findMonths =months.indexOf("june");
+let findMonths = months.indexOf("june");
 console.log(findMonths);
 
 findMonths =months.indexOf("august");
@@ -417,5 +417,37 @@ let newRepFruit = repFruit.repeat(5);
 console.log(newRepFruit);
 
 
+// Slice Example 
+
+let myName = "Mudassir";
+let newName = myName.slice(3, myName.length);
+console.log(newName);
+
+// Replace Example 
+
+let mySec = "section A";
+let updatedSec = mySec.replace("section A", "section B");
+console.log(updatedSec);
+
+// Repeat Example 
+
+let shoes = "NikeShoes";
+let myShoes = shoes.repeat(5);
+console.log(myShoes);
 
 
+// Concat Example 
+
+let concate = [1,2].concat([3,4,5]);
+console.log(concate);
+
+
+// Splice Example 
+
+let arr = [10,20,30,40];
+arr.splice(1, 2);
+console.log(arr);
+
+let newArr = [10, 20, 30, 40];
+newArr.splice(3, 0, 4);
+console.log(newArr);
