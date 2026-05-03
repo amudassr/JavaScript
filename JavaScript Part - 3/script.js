@@ -451,3 +451,231 @@ console.log(arr);
 let newArr = [10, 20, 30, 40];
 newArr.splice(3, 0, 4);
 console.log(newArr);
+
+
+// Array Examples 
+
+// Same type array 
+let sameArray  = [1,2,3,4,5];
+console.log(sameArray);
+
+
+let stringArray = ["ali","hasan","amjad","yahya","osama"];
+console.log(stringArray);
+
+
+// Different type array 
+let diffArray = ["Muhammad",23 , "B ve+"];
+console.log(diffArray);
+
+
+// Empty Array 
+let empArray = [];
+console.log(empArray);
+
+
+// Mutable Array 
+
+let weekDays = ["saturday","sunady","monday", "tuesday", "wednesday","thursday", "friday"];
+weekDays[2] = "Holiday";
+weekDays[5] = "Mazdoor day";
+console.log(weekDays);
+
+
+// push() 
+let degree = ["computer sci","software eng","electrical eng","maritime science"];
+degree.push("computer eng");
+degree.push("information tech");
+console.log(degree);
+
+// pop 
+degree.pop();
+console.log(degree)
+degree.pop();
+console.log(degree);
+
+
+// unshift 
+degree.unshift("bs english");
+console.log(degree);
+degree.unshift("bs math");
+console.log(degree);
+
+
+// shift 
+degree.shift();
+console.log(degree);
+degree.shift();
+console.log(degree);
+
+
+// indexOf
+
+let newDegree = degree.indexOf("maritime science");
+console.log(newDegree);
+
+
+// includes() 
+
+let bsDegree = degree.includes("software eng");
+console.log(bsDegree)
+
+bsDegree = degree.includes("bs english");
+console.log(bsDegree);
+
+
+// reverse()
+
+bsDegree = degree.reverse();
+console.log(bsDegree);
+
+
+// slice() 
+
+let string = ["string", "integer","boolean","numbers"];
+let updateString = string.slice(1);
+console.log(updateString);
+
+updateString = string.slice(0, 2);
+console.log(updateString);
+
+updateString = string.slice(3, string.length);
+console.log(updateString);
+
+updateString = string.slice(-2);
+console.log(updateString);
+
+
+// concat 
+
+let conStr = ["Sanaullah","Hamza"];
+let newConStr = ["Abdullah","Umer"];
+let finalConStr = conStr.concat(newConStr);
+console.log(finalConStr);
+
+
+// splice 
+
+let splArr = ["sami","hamza", "danial","adeel"];
+let updateSplArr = splArr.splice(1, 0 , "Mudassir");
+console.log(splArr);
+
+updateSplArr = splArr.splice(0 , 1);
+console.log(splArr)
+
+updateSplArr = splArr.splice(1, 1);
+console.log(splArr);
+
+updateSplArr = splArr.splice(1, 1, "Muhammad");
+console.log(splArr);
+
+updateSplArr = splArr.splice(0, 1, "Sami")
+console.log(splArr)
+
+updateSplArr = splArr.splice(0, 0, "Muzammil")
+console.log(splArr);
+
+updateSplArr = splArr.splice(1, 1)
+console.log(splArr);
+
+updateSplArr = splArr.splice(1, 2, "Aqeel");
+console.log(splArr);
+
+updateSplArr = splArr.splice(2, 0, "Hamza");
+console.log(splArr);
+
+updateSplArr = splArr.splice(1, 1);
+console.log(splArr);
+
+updateSplArr = splArr.splice(0, 1, "Omer")
+console.log(splArr);
+
+
+
+// Practise Qs - Array Methods 
+
+// Question 1
+let favSubj = ["maths","isl","urdu"];
+favSubj.push("eng","comp");
+console.log(favSubj);
+
+// Question 2
+let counArray = ["Pak", "Afg","Ind","Usa","China"];
+let removeCoun = counArray.pop();
+console.log(removeCoun);
+console.log(counArray);
+
+
+// Question 3 
+let frnds = ["Muzammil","Mudassir","Ibrahim","Adeel"];
+let removFrnd = frnds.shift();
+console.log(removFrnd);
+console.log(frnds);
+
+
+// Question 4
+let city = ["karachi","lahore"];
+console.log(city)
+city.unshift("islamabad","quetta");
+console.log(city);
+
+
+// Question 5 
+let vege = ["potato","onion","tomato","ladyfinger"];
+let tomatoVege = vege.indexOf("tomato");
+console.log(tomatoVege);
+let noVege = vege.indexOf("carrot");
+console.log(noVege);
+
+
+// Question 6 
+let dailyRoutine = ["Fajar", "Zohar", "Asar" ,"Maghrib" ,"Esha"];
+let dailyRout = dailyRoutine.includes("Fajar");
+console.log(dailyRout);
+let noDailyRout = dailyRoutine.includes("tahajud");
+console.log(noDailyRout);
+
+
+// Question 7
+
+let origArr = [1,2,3,4,5,6];
+let numArr =origArr.reverse();
+console.log(numArr);
+console.log(origArr);
+
+
+// Question 8 
+let colorsArr = ["black","white","pink","green","orange","blue","yellow"];
+console.log(colorsArr.slice(2, 5));
+
+let colorsArrLast = colorsArr.slice(-3);
+console.log(colorsArrLast);
+
+let ColorsArr4 = colorsArr.slice(4);
+console.log(ColorsArr4);
+
+
+// Question 9
+let players = ["Babar","Rizwan","Fakhar","Shadab","Shaheen"];
+console.log(players)
+
+let newPlayers = players.splice(0, 0 ,"Saim");
+console.log(players);
+
+let delPlayers = players.splice(5, 1);
+console.log(players);
+
+let repPlayers = players.splice(2, 1 ,"Shoaib");
+console.log(players);
+
+
+
+// Question 10 
+
+let pakCities = ["karachi","lahore","islamabad"];
+let pakDishes = ["biryani","qorma","karahi"];
+let pakCityDish = pakCities.concat(pakDishes);
+console.log(pakCityDish);
+
+
+
