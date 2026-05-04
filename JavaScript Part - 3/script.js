@@ -678,4 +678,12 @@ let pakCityDish = pakCities.concat(pakDishes);
 console.log(pakCityDish);
 
 
+// Question 11 
+
+let worldCities = ["Paris","New York","London"];
+let worldPlaces = ["Eiffel Tower","Statue of Liberty","British Museum"];
+let worldCitiesPlaces = worldCities.concat(worldPlaces);
+console.log(worldCitiesPlaces);
+
+
 
