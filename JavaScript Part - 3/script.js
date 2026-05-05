@@ -29,7 +29,7 @@ console.log(newResult);
 
 
 // print pass with toUpperCase 
-let newResultCap =result.toUpperCase();
+let newResultCap = result.toUpperCase();
 console.log(newResultCap);
 
 
@@ -51,18 +51,18 @@ console.log(fName.slice(4, fName.length));
 
 // 3rd Method (Negative Value)
 let stuId = "bc2404";
-console.log(stuId.slice(-6)); 
+console.log(stuId.slice(-6));
 
 
 // Replace Method 
 
 let position = "Web Designer";
-let Position = (position.replace("Designer"),("Developer"));
+let Position = (position.replace("Designer"), ("Developer"));
 console.log(Position);
 
 let post = "Junior Soft Engineer";
-post =(post.replace("Junior"),("Senior"));
-console.log(post +" Soft Engineer");
+post = (post.replace("Junior"), ("Senior"));
+console.log(post + " Soft Engineer");
 
 
 let bloodGroup = "B ve+";
@@ -74,7 +74,7 @@ console.log("Your blood group is " + bloodGroup);
 
 let fruit = "Mango";
 fruit = fruit.repeat(3);
-console.log("Fruit is repeated 3 times: "+ fruit);
+console.log("Fruit is repeated 3 times: " + fruit);
 
 
 let color = "Black";
@@ -94,7 +94,7 @@ console.log(newMsg);
 // Slice Method
 
 let schoolName = "Bahria Model School";
-schoolName =schoolName.slice((6), (schoolName.length));
+schoolName = schoolName.slice((6), (schoolName.length));
 console.log(schoolName)
 
 let collegeName = "Bahria College";
@@ -114,8 +114,8 @@ console.log(firstName);
 // Replace Method 
 
 let lastName = "Mudassir";
-let fullName = lastName.replace(("Mudassir"),("Muhammad"));
-console.log("This is "+ fullName);
+let fullName = lastName.replace(("Mudassir"), ("Muhammad"));
+console.log("This is " + fullName);
 
 // Practise Qs: 3
 
@@ -131,15 +131,15 @@ console.log(center);
 // Arrays
 
 // Same type of array 
-let numArray = [2,4,6,8];
+let numArray = [2, 4, 6, 8];
 console.log(numArray);
 
-let studentArray = ["sabir","hamza","hassan","ali"];
+let studentArray = ["sabir", "hamza", "hassan", "ali"];
 console.log(studentArray[1]);
 
 
 // Different type of array 
-let info = ["Muhammad", 22 , 71.34];
+let info = ["Muhammad", 22, 71.34];
 console.log(info[0]);
 
 
@@ -166,7 +166,7 @@ console.log(strName);
 
 // Array are mutable 
 
-let fruits = ["apple","mango","pear"];
+let fruits = ["apple", "mango", "pear"];
 console.log(fruits);
 
 fruits[6] = "banana";
@@ -175,7 +175,7 @@ console.log(fruits)
 
 // Array Methods 
 
-let cars = ["audi","bmw","suzuki","toyota"];
+let cars = ["audi", "bmw", "suzuki", "toyota"];
 console.log(cars);
 
 // Push: add to end 
@@ -204,7 +204,7 @@ console.log(cars);
 
 // Practise Qs 
 
-let months = ["january","july","march","august"];
+let months = ["january", "july", "march", "august"];
 console.log(months)
 
 // remove january 
@@ -230,7 +230,7 @@ console.log(months);
 let findMonths = months.indexOf("june");
 console.log(findMonths);
 
-findMonths =months.indexOf("august");
+findMonths = months.indexOf("august");
 console.log(findMonths);
 
 
@@ -245,8 +245,8 @@ console.log(newMonths);
 
 // Concatenation Array
 
-let primary = ["red","green","blue"];
-let secondary = ["black", "white","violet"];
+let primary = ["red", "green", "blue"];
+let secondary = ["black", "white", "violet"];
 
 let allColors = primary.concat(secondary);
 console.log(allColors);
@@ -264,7 +264,7 @@ console.log(revSecondary);
 
 // Slice in Array 
 
-let days = ["monday","tuesday","wednesday","thursday","friday"]
+let days = ["monday", "tuesday", "wednesday", "thursday", "friday"]
 console.log(days.slice());
 console.log(days.slice(2));
 console.log(days.slice(2, 3))
@@ -289,11 +289,11 @@ season.unshift("pink");
 console.log(season)
 season.shift();
 console.log(season);
-season.push("orange","pink","gray");
+season.push("orange", "pink", "gray");
 console.log(season);
 season.splice(1, 2);
 console.log(season)
-season.splice(5, 5,"autumn","orange");
+season.splice(5, 5, "autumn", "orange");
 console.log(season);
 season.splice(1, 0, "white");
 console.log(season);
@@ -438,13 +438,13 @@ console.log(myShoes);
 
 // Concat Example 
 
-let concate = [1,2].concat([3,4,5]);
+let concate = [1, 2].concat([3, 4, 5]);
 console.log(concate);
 
 
 // Splice Example 
 
-let arr = [10,20,30,40];
+let arr = [10, 20, 30, 40];
 arr.splice(1, 2);
 console.log(arr);
 
@@ -456,16 +456,16 @@ console.log(newArr);
 // Array Examples 
 
 // Same type array 
-let sameArray  = [1,2,3,4,5];
+let sameArray = [1, 2, 3, 4, 5];
 console.log(sameArray);
 
 
-let stringArray = ["ali","hasan","amjad","yahya","osama"];
+let stringArray = ["ali", "hasan", "amjad", "yahya", "osama"];
 console.log(stringArray);
 
 
 // Different type array 
-let diffArray = ["Muhammad",23 , "B ve+"];
+let diffArray = ["Muhammad", 23, "B ve+"];
 console.log(diffArray);
 
 
@@ -476,14 +476,14 @@ console.log(empArray);
 
 // Mutable Array 
 
-let weekDays = ["saturday","sunady","monday", "tuesday", "wednesday","thursday", "friday"];
+let weekDays = ["saturday", "sunady", "monday", "tuesday", "wednesday", "thursday", "friday"];
 weekDays[2] = "Holiday";
 weekDays[5] = "Mazdoor day";
 console.log(weekDays);
 
 
 // push() 
-let degree = ["computer sci","software eng","electrical eng","maritime science"];
+let degree = ["computer sci", "software eng", "electrical eng", "maritime science"];
 degree.push("computer eng");
 degree.push("information tech");
 console.log(degree);
@@ -532,7 +532,7 @@ console.log(bsDegree);
 
 // slice() 
 
-let string = ["string", "integer","boolean","numbers"];
+let string = ["string", "integer", "boolean", "numbers"];
 let updateString = string.slice(1);
 console.log(updateString);
 
@@ -548,19 +548,19 @@ console.log(updateString);
 
 // concat 
 
-let conStr = ["Sanaullah","Hamza"];
-let newConStr = ["Abdullah","Umer"];
+let conStr = ["Sanaullah", "Hamza"];
+let newConStr = ["Abdullah", "Umer"];
 let finalConStr = conStr.concat(newConStr);
 console.log(finalConStr);
 
 
 // splice 
 
-let splArr = ["sami","hamza", "danial","adeel"];
-let updateSplArr = splArr.splice(1, 0 , "Mudassir");
+let splArr = ["sami", "hamza", "danial", "adeel"];
+let updateSplArr = splArr.splice(1, 0, "Mudassir");
 console.log(splArr);
 
-updateSplArr = splArr.splice(0 , 1);
+updateSplArr = splArr.splice(0, 1);
 console.log(splArr)
 
 updateSplArr = splArr.splice(1, 1);
@@ -595,33 +595,33 @@ console.log(splArr);
 // Practise Qs - Array Methods 
 
 // Question 1
-let favSubj = ["maths","isl","urdu"];
-favSubj.push("eng","comp");
+let favSubj = ["maths", "isl", "urdu"];
+favSubj.push("eng", "comp");
 console.log(favSubj);
 
 // Question 2
-let counArray = ["Pak", "Afg","Ind","Usa","China"];
+let counArray = ["Pak", "Afg", "Ind", "Usa", "China"];
 let removeCoun = counArray.pop();
 console.log(removeCoun);
 console.log(counArray);
 
 
 // Question 3 
-let frnds = ["Muzammil","Mudassir","Ibrahim","Adeel"];
+let frnds = ["Muzammil", "Mudassir", "Ibrahim", "Adeel"];
 let removFrnd = frnds.shift();
 console.log(removFrnd);
 console.log(frnds);
 
 
 // Question 4
-let city = ["karachi","lahore"];
+let city = ["karachi", "lahore"];
 console.log(city)
-city.unshift("islamabad","quetta");
+city.unshift("islamabad", "quetta");
 console.log(city);
 
 
 // Question 5 
-let vege = ["potato","onion","tomato","ladyfinger"];
+let vege = ["potato", "onion", "tomato", "ladyfinger"];
 let tomatoVege = vege.indexOf("tomato");
 console.log(tomatoVege);
 let noVege = vege.indexOf("carrot");
@@ -629,7 +629,7 @@ console.log(noVege);
 
 
 // Question 6 
-let dailyRoutine = ["Fajar", "Zohar", "Asar" ,"Maghrib" ,"Esha"];
+let dailyRoutine = ["Fajar", "Zohar", "Asar", "Maghrib", "Esha"];
 let dailyRout = dailyRoutine.includes("Fajar");
 console.log(dailyRout);
 let noDailyRout = dailyRoutine.includes("tahajud");
@@ -638,14 +638,14 @@ console.log(noDailyRout);
 
 // Question 7
 
-let origArr = [1,2,3,4,5,6];
-let numArr =origArr.reverse();
+let origArr = [1, 2, 3, 4, 5, 6];
+let numArr = origArr.reverse();
 console.log(numArr);
 console.log(origArr);
 
 
 // Question 8 
-let colorsArr = ["black","white","pink","green","orange","blue","yellow"];
+let colorsArr = ["black", "white", "pink", "green", "orange", "blue", "yellow"];
 console.log(colorsArr.slice(2, 5));
 
 let colorsArrLast = colorsArr.slice(-3);
@@ -656,34 +656,86 @@ console.log(ColorsArr4);
 
 
 // Question 9
-let players = ["Babar","Rizwan","Fakhar","Shadab","Shaheen"];
+let players = ["Babar", "Rizwan", "Fakhar", "Shadab", "Shaheen"];
 console.log(players)
 
-let newPlayers = players.splice(0, 0 ,"Saim");
+let newPlayers = players.splice(0, 0, "Saim");
 console.log(players);
 
 let delPlayers = players.splice(5, 1);
 console.log(players);
 
-let repPlayers = players.splice(2, 1 ,"Shoaib");
+let repPlayers = players.splice(2, 1, "Shoaib");
 console.log(players);
 
 
 
 // Question 10 
 
-let pakCities = ["karachi","lahore","islamabad"];
-let pakDishes = ["biryani","qorma","karahi"];
+let pakCities = ["karachi", "lahore", "islamabad"];
+let pakDishes = ["biryani", "qorma", "karahi"];
 let pakCityDish = pakCities.concat(pakDishes);
 console.log(pakCityDish);
 
 
 // Question 11 
 
-let worldCities = ["Paris","New York","London"];
-let worldPlaces = ["Eiffel Tower","Statue of Liberty","British Museum"];
+let worldCities = ["Paris", "New York", "London"];
+let worldPlaces = ["Eiffel Tower", "Statue of Liberty", "British Museum"];
 let worldCitiesPlaces = worldCities.concat(worldPlaces);
 console.log(worldCitiesPlaces);
 
+
+// Practise Qs 
+
+let monthsArr = ["january", "july", "march", "august"];
+monthsArr.splice(0, 2, "july", "june");
+console.log(monthsArr);
+
+
+// Practise Qs 
+
+let lang = ['C', 'C++', 'html', 'javascript', 'python', 'java', 'c#', 'sql'];
+console.log(lang);
+let jslang = lang.reverse();
+console.log(jslang);
+let injslang = jslang.indexOf("javascript");
+console.log(injslang)
+
+let skillLang = ['C', 'C++', 'html', 'javascript', 'python', 'java', 'c#', 'sql'];
+let jsSkillLang = skillLang.reverse().indexOf("html");
+console.log(jsSkillLang);
+
+
+
+// Array Refrences 
+
+let refArr = ['a', 'b', 'c', 'd'];
+let arrCopy = refArr;
+
+refArr.push('e');
+console.log(arrCopy);
+
+arrCopy.pop();
+console.log(refArr);
+
+arrCopy = ['h', 'i', 'j', 'k'];
+console.log(arrCopy);
+
+
+
+// Const Array 
+
+const g = 10;
+console.log(g);
+
+const siblingName = ["Hamza","Sana"];
+console.log(siblingName);
+
+siblingName.push("Mohid", "Maryam");
+console.log(siblingName);
+
+siblingName = ["osama"];
+console.log(siblingName)
 
 
