@@ -752,7 +752,18 @@ console.log(siblingName);
 siblingName.push("Mohid", "Maryam");
 console.log(siblingName);
 
-siblingName = ["osama"];
-console.log(siblingName)
+// siblingName = ["osama"];
+// console.log(siblingName)
 
 
+// Nested Array 
+
+let nums = [ [1,2],[3,4],[5,6],[7,8] ];
+console.log(nums[3][1]);
+
+
+
+// Practise Qs - tic-tac-toe 
+
+let game = [ ['x',null,'O'], [null,'X','O'], ['O',null,'X'] ];
+console.log(game[0][2]);
