@@ -686,6 +686,23 @@ let worldCitiesPlaces = worldCities.concat(worldPlaces);
 console.log(worldCitiesPlaces);
 
 
+
+// Sort Method 
+
+let sortArr = ["red", "black", "orange", "pink", "olivegreen"];
+sortArr.sort();
+console.log(sortArr);
+
+
+let sortChar = ["a", "b", "c", "d", "e"];
+sortChar.sort();
+console.log(sortChar);
+
+let sortNum = [100, 89, 41, 73, 26];
+sortNum.sort();
+console.log(sortNum);
+
+
 // Practise Qs 
 
 let monthsArr = ["january", "july", "march", "august"];
@@ -729,7 +746,7 @@ console.log(arrCopy);
 const g = 10;
 console.log(g);
 
-const siblingName = ["Hamza","Sana"];
+const siblingName = ["Hamza", "Sana"];
 console.log(siblingName);
 
 siblingName.push("Mohid", "Maryam");
