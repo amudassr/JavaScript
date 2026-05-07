@@ -52,7 +52,6 @@ for (let m = 10; m >= 1; m -= 2) {
 
 // Infinite Loops 
 
-console.log("Infinite Loops");
 
 // for(let n =1; n>=0; n++) {
 //     console.log();
@@ -69,5 +68,26 @@ console.log("Infinite Loops");
 // }
 
 
+// Print Multiplication Table  
+
+// Print Table of 2
+console.log("Table of 2");
+
+for(let t = 2; t<=20; t +=2) {
+    console.log(t);
+}
 
 
+// Table of 5 
+console.log("Table of 5");
+
+for(let x = 5; x<=50; x += 5) {
+    console.log(x);
+}
+
+// Table of 10 
+console.log("Table of 10");
+
+for(let y = 10; y<=100; y += 10) {
+    console.log(y);
+}
