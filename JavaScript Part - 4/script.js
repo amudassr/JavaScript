@@ -73,7 +73,7 @@ for (let m = 10; m >= 1; m -= 2) {
 // Print Table of 2
 console.log("Table of 2");
 
-for(let t = 2; t<=20; t +=2) {
+for (let t = 2; t <= 20; t += 2) {
     console.log(t);
 }
 
@@ -81,13 +81,46 @@ for(let t = 2; t<=20; t +=2) {
 // Table of 5 
 console.log("Table of 5");
 
-for(let x = 5; x<=50; x += 5) {
+for (let x = 5; x <= 50; x += 5) {
     console.log(x);
 }
 
 // Table of 10 
 console.log("Table of 10");
 
-for(let y = 10; y<=100; y += 10) {
+for (let y = 10; y <= 100; y += 10) {
     console.log(y);
+};
+
+
+// parseInt 
+
+let str = "42";
+console.log(typeof str);
+
+let num = parseInt(str);
+console.log(typeof num);
+
+
+
+// let user = prompt("wirte your number");
+// console.log(typeof user);
+
+// let userPro = parseInt(user);
+// console.log(userPro);
+// console.log(typeof userPro);
+
+
+
+// Table User Choise 
+
+console.log("Table of your choise");
+
+let n = prompt("write your number");
+n = parseInt(n);
+
+for (let a = n; a <= n * 10; a += n) {
+    console.log(a);
 }
+
+
