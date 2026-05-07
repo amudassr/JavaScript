@@ -31,7 +31,7 @@ for (let k = 1; k <= 10; k = k + 2) {
 
 console.log("Odd Backwards");
 
-for(K = 9; K>=1; K = K-2) {
+for (K = 9; K >= 1; K = K - 2) {
     console.log(K);
 }
 
@@ -49,3 +49,25 @@ console.log("Even Backwards");
 for (let m = 10; m >= 1; m -= 2) {
     console.log(m);
 }
+
+// Infinite Loops 
+
+console.log("Infinite Loops");
+
+// for(let n =1; n>=0; n++) {
+//     console.log();
+// }
+
+
+// for(let p = 1; p<=5; p--) {
+//     console.log(p);
+// }
+
+
+// for(let q =1; ; q++) {
+//     console.log(q);
+// }
+
+
+
+
