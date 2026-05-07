@@ -8,10 +8,44 @@ console.log("5");
 // for loop
 
 //  Basic Counter
-for(let i = 1; i<=10; i++) {
-    console.log(i); 
+
+console.log("Counter Forwards");
+
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
 };
 
-for(j=10; j>=1; j = j -2){
+console.log("Counter Backwards")
+
+for (let j = 10; j >= 1; j = j - 2) {
     console.log(j)
 };
+
+
+// Odd Numbers 
+
+console.log("Odd Forwards");
+for (let k = 1; k <= 10; k = k + 2) {
+    console.log(k);
+}
+
+console.log("Odd Backwards");
+
+for(K = 9; K>=1; K = K-2) {
+    console.log(K);
+}
+
+
+// Even Numbers 
+
+console.log("Even Forwards");
+
+for (let l = 2; l <= 10; l = l + 2) {
+    console.log(l);
+};
+
+console.log("Even Backwards");
+
+for (let m = 10; m >= 1; m -= 2) {
+    console.log(m);
+}
