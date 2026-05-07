@@ -114,13 +114,45 @@ console.log(typeof num);
 
 // Table User Choise 
 
-console.log("Table of your choise");
+// console.log("Table of your choise");
 
-let n = prompt("write your number");
-n = parseInt(n);
+// let n = prompt("write your number");
+// n = parseInt(n);
 
-for (let a = n; a <= n * 10; a += n) {
-    console.log(a);
+// for (let a = n; a <= n * 10; a += n) {
+//     console.log(a);
+// };
+
+
+
+
+// Nested Loop 
+
+
+for (let q = 1; q <= 3; q++) {
+    console.log(`outer loop${q}`);
+    for (let s = 1; s <= 3; s++) {
+        console.log(s);
+    }
+};
+
+
+console.log("Nested Loop Examples");
+
+// Example 1 
+
+for (let row = 1; row <= 3; row++) {
+    for (let col = 1; col <= 3; col++) {
+        console.log(`Row ${row} : Col ${col}`);
+    }
 }
 
 
+// Example 2 
+
+for (let tab = 1; tab <= 3; tab++) {
+    for (let inn = 1; inn <= 3; inn++) {
+        console.log(`${tab} x ${inn} = ${tab * inn}`)
+    }
+    console.log("---");
+}
