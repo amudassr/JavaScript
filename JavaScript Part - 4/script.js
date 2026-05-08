@@ -207,18 +207,20 @@ while (odd <= 20) {
 
 // Favourite Movie 
 
-// let favMovie = "parwaaz";
-// let guessMovie = prompt("Enter you guess");
+let favMovie = "parwaaz";
+let guessMovie = prompt("Enter you guess");
 
-// while ((favMovie != guessMovie) && (guessMovie != "quit")) {
-//     guessMovie = prompt("Wrong guess. please try again");
-// }
+while (favMovie != guessMovie) {
+    if (guessMovie == "quit") {
+        console.log("you quit");
+        break;
+    }
+    guessMovie = prompt("Wrong guess. please try again");
+}
 
-// if(guessMovie == favMovie) {
-//     console.log("congrats!! guess match")
-// } else {
-//     console.log("you quit")
-// }
+if (guessMovie == favMovie) {
+    console.log("congrats!! guess match")
+}
 
 
 // Number Guessing Game
@@ -239,18 +241,34 @@ while (odd <= 20) {
 
 // Password Checker 
 
-const secPassword = "Mudassir@123";
-let userPassword = prompt("Enter your password");
-let attempts = 1;
+// const secPassword = "Mudassir@123";
+// let userPassword = prompt("Enter your password");
+// let attempts = 1;
 
-while (secPassword != userPassword && attempts < 3) {
-    attempts++;
-    let remaining = 3 - attempts;
-    userPassword = prompt("Wrong! " + remaining + " attempts left:");
+// while (secPassword != userPassword && attempts < 3) {
+//     attempts++;
+//     let remaining = 3 - attempts;
+//     userPassword = prompt("Wrong! " + remaining + " attempts left:");
+// }
+
+// if (userPassword == secPassword) {
+//     console.log("Access granted");
+// } else {
+//     console.log("Account locked");
+// }
+
+
+console.log("break")
+
+// break 
+
+let b = 1;
+while (b <= 5) {
+    if (b == 3) {
+        break;
+    }
+    console.log(b);
+    b++;
 }
 
-if (userPassword == secPassword) {
-    console.log("Access granted");
-} else {
-    console.log("Account locked");
-}
+console.log("we use break at 3")
