@@ -128,16 +128,13 @@ console.log(typeof num);
 
 // Nested Loop 
 
-
 for (let q = 1; q <= 3; q++) {
-    console.log(`outer loop${q}`);
+    console.log(`outer loop ${q}`);
     for (let s = 1; s <= 3; s++) {
         console.log(s);
     }
-};
+}
 
-
-console.log("Nested Loop Examples");
 
 // Example 1 
 
@@ -148,11 +145,61 @@ for (let row = 1; row <= 3; row++) {
 }
 
 
-// Example 2 
+// Example 2
 
 for (let tab = 1; tab <= 3; tab++) {
-    for (let inn = 1; inn <= 3; inn++) {
-        console.log(`${tab} x ${inn} = ${tab * inn}`)
+    for (let inner = 1; inner <= 3; inner++) {
+        console.log(`${tab} x ${inner} = ${tab * inner}`);
     }
     console.log("---");
+}
+
+
+console.log("While Loop");
+
+
+
+// While Loop 
+
+// Forward 
+
+let w = 1;
+while (w <= 5) {
+    console.log(w);
+    w++;
+}
+
+console.log("Backward");
+
+// Backward 
+
+let v = 5;
+while (v >= 1) {
+    console.log(v);
+    v--;
+}
+
+console.log("0 to 20")
+
+let zero = 0;
+while (zero <= 20) {
+    console.log(zero);
+    zero++;
+}
+
+console.log("even number");
+
+let even = 0;
+while (even <= 20) {
+    console.log(even);
+    even += 2;
+}
+
+
+console.log("Odd number");
+
+let odd = 1;
+while(odd <=20){
+    console.log(odd);
+    odd += 2;
 }
