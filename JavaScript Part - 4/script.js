@@ -275,8 +275,8 @@ console.log("we use break at 3");
 
 
 let xyz = 1;
-while(xyz <= 5) {
-    if(xyz == 4) {
+while (xyz <= 5) {
+    if (xyz == 4) {
         break;
     }
     console.log(xyz);
@@ -289,25 +289,56 @@ while(xyz <= 5) {
 
 // For Fruits 
 
-let fruits = ["apple","mango","banana","ornage","litchi","grapes"];
+let fruits = ["apple", "mango", "banana", "orange", "litchi", "grapes"];
 
-for(let f = 0; f<= fruits.length; f++) {
-    console.log(f,fruits[f]);
+for (let f = 0; f <= fruits.length; f++) {
+    console.log(f, fruits[f]);
 }
 
 // For Months 
 
-let months = ["january","febuary","march","april","may","june","july","august","september","october","november","december"];
+let months = ["january", "febuary", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
 
-for(let mnth = 0; mnth <= months.length; mnth++){
-    console.log(mnth,months[mnth]);
+for (let mnth = 0; mnth <= months.length; mnth++) {
+    console.log(mnth, months[mnth]);
 }
 
 
 // For Subjects 
 
-let subj = ["math","eng","sci","pst","phy","chem"];
+let subj = ["math", "eng", "sci", "pst", "phy", "chem"];
 
-for(let s = 0; s <= subj.length; s++) {
+for (let s = 0; s <= subj.length; s++) {
     console.log(s, subj[s]);
 }
+
+
+// For Friends 
+
+let friends = ["Hamza", "Hassan", "Younas", "Yaqoob"];
+for (let fr = 0; fr <= friends.length; fr++) {
+    console.log(fr, friends[fr]);
+}
+
+
+let cars = ["bmw", "suv", "mercedes", "toyota", "honda"];
+for (let ca = 0; ca <= cars.length; ca++) {
+    console.log(ca, cars[ca])
+}
+
+
+
+// Loops with Nested Arrays 
+
+let heroes = [
+    ["ironman", "spiderman", "thor"],
+    ["superman", "wonder women", "flash"]
+]
+
+for (let h = 0; h < heroes.length; h++) {
+    console.log(h, heroes[h], heroes[h].length);
+    for (let j = 0; j < heroes[h].length; j++) {
+        console.log(`j=${j}, ${heroes[h][j]}`);
+    }
+}
+
