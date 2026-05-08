@@ -207,20 +207,20 @@ while (odd <= 20) {
 
 // Favourite Movie 
 
-let favMovie = "parwaaz";
-let guessMovie = prompt("Enter you guess");
+// let favMovie = "parwaaz";
+// let guessMovie = prompt("Enter you guess");
 
-while (favMovie != guessMovie) {
-    if (guessMovie == "quit") {
-        console.log("you quit");
-        break;
-    }
-    guessMovie = prompt("Wrong guess. please try again");
-}
+// while (favMovie != guessMovie) {
+//     if (guessMovie == "quit") {
+//         console.log("you quit");
+//         break;
+//     }
+//     guessMovie = prompt("Wrong guess. please try again");
+// }
 
-if (guessMovie == favMovie) {
-    console.log("congrats!! guess match")
-}
+// if (guessMovie == favMovie) {
+//     console.log("congrats!! guess match")
+// }
 
 
 // Number Guessing Game
@@ -271,4 +271,43 @@ while (b <= 5) {
     b++;
 }
 
-console.log("we use break at 3")
+console.log("we use break at 3");
+
+
+let xyz = 1;
+while(xyz <= 5) {
+    if(xyz == 4) {
+        break;
+    }
+    console.log(xyz);
+    xyz++;
+}
+
+
+// Loops with Array 
+
+
+// For Fruits 
+
+let fruits = ["apple","mango","banana","ornage","litchi","grapes"];
+
+for(let f = 0; f<= fruits.length; f++) {
+    console.log(f,fruits[f]);
+}
+
+// For Months 
+
+let months = ["january","febuary","march","april","may","june","july","august","september","october","november","december"];
+
+for(let mnth = 0; mnth <= months.length; mnth++){
+    console.log(mnth,months[mnth]);
+}
+
+
+// For Subjects 
+
+let subj = ["math","eng","sci","pst","phy","chem"];
+
+for(let s = 0; s <= subj.length; s++) {
+    console.log(s, subj[s]);
+}
