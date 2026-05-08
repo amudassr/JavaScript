@@ -199,7 +199,58 @@ while (even <= 20) {
 console.log("Odd number");
 
 let odd = 1;
-while(odd <=20){
+while (odd <= 20) {
     console.log(odd);
     odd += 2;
+}
+
+
+// Favourite Movie 
+
+// let favMovie = "parwaaz";
+// let guessMovie = prompt("Enter you guess");
+
+// while ((favMovie != guessMovie) && (guessMovie != "quit")) {
+//     guessMovie = prompt("Wrong guess. please try again");
+// }
+
+// if(guessMovie == favMovie) {
+//     console.log("congrats!! guess match")
+// } else {
+//     console.log("you quit")
+// }
+
+
+// Number Guessing Game
+
+// const luckyNum = 7;
+// let guessNum = prompt("Guess the lucky number");
+
+
+// while( (luckyNum != parseInt(guessNum)) && (guessNum != "quit")) {
+//    guessNum = prompt("Better luck next time");
+// }
+
+// if(luckyNum == parseInt(guessNum)) {
+//     console.log("You got it!");
+// }
+
+
+
+// Password Checker 
+
+const secPassword = "Mudassir@123";
+let userPassword = prompt("Enter your password");
+let attempts = 1;
+
+while (secPassword != userPassword && attempts < 3) {
+    attempts++;
+    let remaining = 3 - attempts;
+    userPassword = prompt("Wrong! " + remaining + " attempts left:");
+}
+
+if (userPassword == secPassword) {
+    console.log("Access granted");
+} else {
+    console.log("Account locked");
 }
