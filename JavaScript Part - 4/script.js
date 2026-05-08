@@ -330,6 +330,7 @@ for (let ca = 0; ca <= cars.length; ca++) {
 
 // Loops with Nested Arrays 
 
+// For heroes 
 let heroes = [
     ["ironman", "spiderman", "thor"],
     ["superman", "wonder women", "flash"]
@@ -342,3 +343,66 @@ for (let h = 0; h < heroes.length; h++) {
     }
 }
 
+
+// For time table 
+let timeTable = [
+    ["Math", "English", "Science"],
+    ["Urdu", "Physics", "Chemistry"]
+]
+
+for (let ti = 0; ti < timeTable.length; ti++) {
+    console.log(ti, timeTable[ti], timeTable[ti].length);
+    for (let ta = 0; ta < timeTable[ti].length; ta++) {
+        console.log(`ta =${ta}, ${timeTable[ti][ta]}`)
+    }
+}
+
+
+// Cinema Seat Plan 
+
+let cinema = [
+    ["A1", "A2", "A3"],
+    ["B1", "B2", "B3"],
+    ["C1", "C2", "C3"]
+]
+
+for (let row = 0; row < cinema.length; row++) {
+    console.log(row, cinema[row], cinema[row].length);
+    for (let seat = 0; seat < cinema[row].length; seat++) {
+        console.log(`seat = ${seat}, ${cinema[row][seat]}`);
+    }
+}
+
+
+
+// Shopping Cart 
+
+let cart = [
+    ["Apple", "Banana", "Mango"],
+    ["Milk", "Juice", "Water"],
+    ["Biscuit", "Chips", "Chocolate"]
+]
+
+for (let category = 0; category < cart.length; category++) {
+    console.log(category, cart[category], cart[category].length);
+    for (let item = 0; item < cart[category].length; item++) {
+        console.log(`item = ${item}, ${cart[category][item]}`);
+    }
+}
+
+
+
+// Cricket Teams  
+
+let teams = [
+    ["Baber", "Rizwan", "Shaheen"],
+    ["Rohit", "Kohli", "Bumrah"],
+    ["Root", "Stokes", "Anderson"]
+]
+
+for(let player = 0; player < teams.length; player++) {
+    console.log(player, teams[player], teams[player].length);
+    for(let play = 0; play < teams[player].length; play++) {
+        console.log(`play = ${play}, ${teams[player][play]}`);
+    }
+}
