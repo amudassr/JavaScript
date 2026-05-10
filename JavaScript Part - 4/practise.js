@@ -78,3 +78,13 @@ while (wloop > 0) {
     wloop++;
 }
 
+
+
+// Question 6 
+
+
+let nloop = 1;
+while (nloop < 0) {
+    console.log(nloop);
+    wloop++;
+}
