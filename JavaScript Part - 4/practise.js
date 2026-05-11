@@ -1,90 +1,103 @@
-// Question 1 - For Loop 
+// Question 1 - for loop
 
-// Odd Number 
 console.log("Odd Numbers");
-for (let e = 1; e <= 20; e += 2) {
-    console.log(e);
+for (let odd = 1; odd <= 20; odd += 2) {
+    console.log(odd);
 }
 
-
-// Even Number 
 console.log("Even Numbers");
-for (let o = 0; o <= 20; o += 2) {
-    console.log(o);
+for (let even = 0; even <= 20; even += 2) {
+    console.log(even);
 }
 
 
-// Question 2 - User multiplication table
+// Question 2 - Multiplication Table
+
+// let user = prompt("Write your number");
+// user = parseInt(user);
+
+// for (let table = 1; table <= 10; table += 1) {
+//     console.log(`${user} x ${table} = ${user * table}`);
+// }
 
 
-console.log("User multiplication table");
 
-let n = Number(prompt("write your number"));
+// Table of 5 
 
-for (let user = 1; user <= 10; user++) {
-    console.log(`${n} x ${user} = ${n * user}`);
+
+for (let x = 7; x <= 70; x += 7) {
+    console.log(x);
 }
 
+// let u = prompt("Type number here");
+// u = parseInt(u);
 
-// Question 3 - while loop 
+// for (let n = 1; n <= 10; n += 1) {
+//     console.log(`${u} x ${n} = ${u * n}`);
+// }
 
-console.log("While loops");
 
+
+// Question 3 
+
+console.log("Infinite loop");
 let w = 1;
 while (w <= 10) {
     console.log(w);
-    w++; // agr is w++ ko comment kr dya na tu loop infinite ho jaye ga or browser hang ho jaye ga.
+    w++;  // agr w++ bhol jaon ga infinile loop chal jaye ga 
 }
 
 
+// Question 5 - Loops with Arrays
+// for loops 
 
-// Question 4 - Loops with Arrays 
-
-
-console.log("Loops with Arrays");
-
-let favMovie = ["Kakul", "Rahbar", "Asghar Khan", "Chirat", "Nsotc"];
-
-for (let f = 0; f < favMovie.length; f++) {
+let favMovie = ["alpha", "bravo", "charli", "ehdy wafa", "sinfe ahan"];
+for (let f = 0; f <= favMovie.length; f++) {
     console.log(f, favMovie[f]);
 }
 
-// With while loop 
 
-console.log("fav movie with while loop");
+// while loops 
 
-let fMovie = ["Alpha Bravo Charlie", "Ehd-e-Wafa", "Sinf-e-Aahan", "Sunehray Din"];
-
-let fav = 0;
-
-while (fav < fMovie.length) {
-    console.log(fav, fMovie[fav]);
-    fav++;
+let favMov = ['Army', 'Navy', 'AirForce', 'FC', 'Rangers'];
+let wm = 0;
+while (wm <= favMov.length) {
+    console.log(wm, favMov[wm]);
+    wm++;
 }
 
 
+// Question 5 - Infinite loop 
 
-// Question 5 - Infinite Loop with break
-
-console.log("Infinite Loop with break ")
-
-let wloop = 1;
-while (wloop > 0) {
-    if (wloop == 8) {
-        console.log("Loop is end!")
+let i = 3;
+while (i >= 2) {
+    if (i == 8) {
         break;
     }
-    console.log(wloop);
-    wloop++;
+    console.log(i);
+    i++;
 }
 
 
+// Question 6 - Nested for loop 
 
-// Question 6 
-
-
-let nloop = 1;
-while (nloop < 0) {
-    console.log(nloop);
-    wloop++;
+for (let rows = 1; rows <= 5; rows++) {
+    let star = "";
+    for (let col = 1; col <= 5; col++) {
+        star += "* ";
+    }
+    console.log(star);
 }
+
+
+// Question 7 - Loops with Arrays 
+
+let students = [["Ali", 85], ["Sara", 92], ["Bilal", 78], ["Zara", 95]];
+for (let std = 0; std < students.length; std++) {
+    console.log("Name:", students[std][0], "Marks:", students[std][1]);
+
+    if (students[std][1] > 90) {
+        console.log(students[std][1]);
+    }
+}
+
