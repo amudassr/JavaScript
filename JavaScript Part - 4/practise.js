@@ -101,3 +101,16 @@ for (let std = 0; std < students.length; std++) {
     }
 }
 
+
+// Question 7 - Loops with Array 
+
+console.log("Employee Salary");
+let employee = [["Hasan", 75000], ["Omer", 80000], ["Yasir", 100000], ["Hamza", "120000"]];
+for (let emp = 0; emp < employee.length; emp++) {
+    console.log(employee[emp][0], employee[emp][1]);
+
+    if (employee[emp][1] > 100000) {
+        console.log(employee[emp][0]);
+    }
+}
+
