@@ -114,3 +114,16 @@ for (let emp = 0; emp < employee.length; emp++) {
     }
 }
 
+
+// Question 8 
+
+console.log("Sports Man")
+let sportsMan = [["Babar", 56], ["Saim", 63], ["Hassan", 32], ["Fakhar", 39]];
+for (let sport = 0; sport < sportsMan.length; sport++) {
+    console.log(sportsMan[sport][0], sportsMan[sport][1]);
+
+    if (sportsMan[sport][1] > 32) {
+        console.log(sportsMan[sport][0]);
+    }
+}
+
