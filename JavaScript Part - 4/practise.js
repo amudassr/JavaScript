@@ -117,7 +117,7 @@ for (let emp = 0; emp < employee.length; emp++) {
 
 // Question 8 
 
-console.log("Sports Man")
+console.log("Sports Man");
 let sportsMan = [["Babar", 56], ["Saim", 63], ["Hassan", 32], ["Fakhar", 39]];
 for (let sport = 0; sport < sportsMan.length; sport++) {
     console.log(sportsMan[sport][0], sportsMan[sport][1]);
@@ -127,3 +127,39 @@ for (let sport = 0; sport < sportsMan.length; sport++) {
     }
 }
 
+
+
+// Nested Array with Nested Loops 
+
+let developer = [["Mudassir", "Hamza", "Anas"], ["Muhammad", "Wasiq", "Maaz"]];
+for (let frontend = 0; frontend < developer.length; frontend++) {
+    console.log(`Name:${frontend}`);
+    for (let backend = 0; backend < developer[frontend].length; backend++) {
+        console.log(developer[frontend][backend]);
+    }
+}
+
+
+// karachi restaurant
+
+console.log("Karachi Restaurant")
+
+let restaurant = [["Ali", "Hamza", "Hasan"], ["Yasir", "Wahab", "Haseeb"], ["Sami", "Faiz", "Omer"]];
+for (let table = 0; table < restaurant.length; table++) {
+    console.log(`Table #${table + 1}`);
+    for (let customer = 0; customer < restaurant[table].length; customer++) {
+        console.log(" Customers: " + restaurant[table][customer]);
+    }
+}
+
+
+// University 
+
+console.log("University Students")
+let universty = [["Ahmed Awais", "Muhammad Usman", "Faiz Ahmed"], ["Ahmer Bangro", "Umer Imran", "Fahad Bajwa"]];
+for (let dept = 0; dept < universty.length; dept++) {
+    console.log(`Depart #${dept + 1} `);
+    for (let std = 0; std < universty[dept].length; std++) {
+        console.log(" Student: "+ universty[dept][std]);
+    }
+}
