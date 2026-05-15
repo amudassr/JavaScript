@@ -400,9 +400,12 @@ let teams = [
     ["Root", "Stokes", "Anderson"]
 ]
 
-for(let player = 0; player < teams.length; player++) {
+for (let player = 0; player < teams.length; player++) {
     console.log(player, teams[player], teams[player].length);
-    for(let play = 0; play < teams[player].length; play++) {
+    for (let play = 0; play < teams[player].length; play++) {
         console.log(`play = ${play}, ${teams[player][play]}`);
     }
 }
+
+
+

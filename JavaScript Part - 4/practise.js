@@ -143,7 +143,6 @@ for (let frontend = 0; frontend < developer.length; frontend++) {
 // karachi restaurant
 
 console.log("Karachi Restaurant")
-
 let restaurant = [["Ali", "Hamza", "Hasan"], ["Yasir", "Wahab", "Haseeb"], ["Sami", "Faiz", "Omer"]];
 for (let table = 0; table < restaurant.length; table++) {
     console.log(`Table #${table + 1}`);
@@ -160,6 +159,20 @@ let universty = [["Ahmed Awais", "Muhammad Usman", "Faiz Ahmed"], ["Ahmer Bangro
 for (let dept = 0; dept < universty.length; dept++) {
     console.log(`Depart #${dept + 1} `);
     for (let std = 0; std < universty[dept].length; std++) {
-        console.log(" Student: "+ universty[dept][std]);
+        console.log(" Student: " + universty[dept][std]);
     }
 }
+
+
+// Shopping Mall 
+
+console.log("Shopping Mall");
+let mall = [["Nike", "Puma", "Adidas"], ["J.", "Alkaram", "Gul Ahmed"], ["Zara", "Saya", "Dior"]];
+for (let floor = 0; floor < mall.length; floor++) {
+    console.log(`floor ${floor + 1}`);
+    for (let shop = 0; shop < mall[floor].length; shop++) {
+        console.log(`shop = ${shop}, ${mall[floor][shop]}`);
+    }
+}
+
+
