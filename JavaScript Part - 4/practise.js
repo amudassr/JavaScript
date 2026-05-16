@@ -176,3 +176,45 @@ for (let floor = 0; floor < mall.length; floor++) {
 }
 
 
+// for of loop 
+
+console.log("Dry Fruits")
+let dryFruit = ["Pistachios", "Cashews", "Almonds", "Walnuts", "Raisins"];
+for(newFruit of dryFruit) {
+    console.log(newFruit);
+}
+
+for(char of "muhammad") {
+    console.log(char);
+}
+
+
+// Nested for of loop 
+
+let friends = [["ali", "omer", "fayaz"],["hamza","hunain","osama"]];
+for(frnds of friends) {
+    for(closeFrnds of frnds) {
+        console.log(closeFrnds);
+    }
+}
+
+
+// Practise Qs - for of loop 
+
+let books = ["atomic habit","deep work","12 months to 1 million $","smart work"];
+for(let buy of books) {
+    console.log(buy);
+}
+
+
+for(let author of "James Clear") {
+    console.log(author);
+}
+
+
+let schoolSystem = [["Ahmed","Sufyan","Hassan"],["Fayaz","Sami","Ali"],["Abdullah","Hamza","Mohid"]];
+for(let classes of schoolSystem) {
+    for(let classStudent of classes) {
+        console.log(`Student: ${classStudent}`);
+    }
+}

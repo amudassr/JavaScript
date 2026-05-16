@@ -408,4 +408,9 @@ for (let player = 0; player < teams.length; player++) {
 }
 
 
+// for of loop 
 
+let vegetables = ["Spinach", "Radish", "Carrot", "Potato"];
+for (vege of vegetables) {
+    console.log(vege);
+}
