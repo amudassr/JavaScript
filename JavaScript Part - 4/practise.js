@@ -218,3 +218,11 @@ for(let classes of schoolSystem) {
         console.log(`Student: ${classStudent}`);
     }
 }
+
+
+let employeeSystem = [["Shareef","Safwaan","Muhammad"],["Asif","SamiUllah","Umer"],["Khan","Islam","Abrar"]];
+for(let offices of employeeSystem) {
+    for(let officeEmployee of offices) {
+        console.log(`Student: ${officeEmployee}`);
+    }
+}
