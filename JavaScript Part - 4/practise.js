@@ -226,3 +226,10 @@ for(let offices of employeeSystem) {
         console.log(`Student: ${officeEmployee}`);
     }
 }
+
+let bankSystem = [["Meezan Islamic", "Allied", "Askari"], ["Dubai Islamic", "Alfalah", "United Limited"], ["Al Baraka", "AL Habib", "Soneri"]];
+for(let bank of bankSystem) {
+    for(let bankUser of bank) {
+        console.log(`${bankUser} Bank`);
+    }
+}
