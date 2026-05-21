@@ -233,3 +233,11 @@ for(let bank of bankSystem) {
         console.log(`${bankUser} Bank`);
     }
 }
+
+
+let schoolingSystem = [["Karachi Grammar School", "Bay View High School", "Haque Academy"], ["The Lyceum", "Karachi American School", "Habib Public School"]];
+for(let school of schoolingSystem) {
+    for(let schoolStudent of school) {
+        console.log(`${schoolStudent}`);
+    }
+}
