@@ -241,3 +241,12 @@ for(let school of schoolingSystem) {
         console.log(`${schoolStudent}`);
     }
 }
+
+
+let coachingSystem = [["Adam Ji", "Practical Center", "Haque Academy"], ["The Lyceum", "SJ Academy", "Excellence Coaching centre"]];
+for(let coaching of coachingSystem) {
+    for(let coachingStudent of coaching) {
+        console.log(`${coachingStudent}`);
+    }
+}
+
