@@ -250,3 +250,13 @@ for(let coaching of coachingSystem) {
     }
 }
 
+
+let tutionSystem = [["Adam Ji", "Practical Center", "Haque Academy"], ["The Lyceum", "SJ Academy", "Excellence Coaching centre"]];
+for(let tution of tutionSystem) {
+    for(let tutionStudent of tution) {
+        console.log(`${tutionStudent}`);
+    }
+}
+
+
+
