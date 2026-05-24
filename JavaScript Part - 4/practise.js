@@ -180,20 +180,20 @@ for (let floor = 0; floor < mall.length; floor++) {
 
 console.log("Dry Fruits")
 let dryFruit = ["Pistachios", "Cashews", "Almonds", "Walnuts", "Raisins"];
-for(newFruit of dryFruit) {
+for (newFruit of dryFruit) {
     console.log(newFruit);
 }
 
-for(char of "muhammad") {
+for (char of "muhammad") {
     console.log(char);
 }
 
 
 // Nested for of loop 
 
-let friends = [["ali", "omer", "fayaz"],["hamza","hunain","osama"]];
-for(frnds of friends) {
-    for(closeFrnds of frnds) {
+let friends = [["ali", "omer", "fayaz"], ["hamza", "hunain", "osama"]];
+for (frnds of friends) {
+    for (closeFrnds of frnds) {
         console.log(closeFrnds);
     }
 }
@@ -201,60 +201,67 @@ for(frnds of friends) {
 
 // Practise Qs - for of loop 
 
-let books = ["atomic habit","deep work","12 months to 1 million $","smart work"];
-for(let buy of books) {
+let books = ["atomic habit", "deep work", "12 months to 1 million $", "smart work"];
+for (let buy of books) {
     console.log(buy);
 }
 
 
-for(let author of "James Clear") {
+for (let author of "James Clear") {
     console.log(author);
 }
 
 
-let schoolSystem = [["Ahmed","Sufyan","Hassan"],["Fayaz","Sami","Ali"],["Abdullah","Hamza","Mohid"]];
-for(let classes of schoolSystem) {
-    for(let classStudent of classes) {
+let schoolSystem = [["Ahmed", "Sufyan", "Hassan"], ["Fayaz", "Sami", "Ali"], ["Abdullah", "Hamza", "Mohid"]];
+for (let classes of schoolSystem) {
+    for (let classStudent of classes) {
         console.log(`Student: ${classStudent}`);
     }
 }
 
 
-let employeeSystem = [["Shareef","Safwaan","Muhammad"],["Asif","SamiUllah","Umer"],["Khan","Islam","Abrar"]];
-for(let offices of employeeSystem) {
-    for(let officeEmployee of offices) {
+let employeeSystem = [["Shareef", "Safwaan", "Muhammad"], ["Asif", "SamiUllah", "Umer"], ["Khan", "Islam", "Abrar"]];
+for (let offices of employeeSystem) {
+    for (let officeEmployee of offices) {
         console.log(`Student: ${officeEmployee}`);
     }
 }
 
 let bankSystem = [["Meezan Islamic", "Allied", "Askari"], ["Dubai Islamic", "Alfalah", "United Limited"], ["Al Baraka", "AL Habib", "Soneri"]];
-for(let bank of bankSystem) {
-    for(let bankUser of bank) {
+for (let bank of bankSystem) {
+    for (let bankUser of bank) {
         console.log(`${bankUser} Bank`);
     }
 }
 
 
 let schoolingSystem = [["Karachi Grammar School", "Bay View High School", "Haque Academy"], ["The Lyceum", "Karachi American School", "Habib Public School"]];
-for(let school of schoolingSystem) {
-    for(let schoolStudent of school) {
+for (let school of schoolingSystem) {
+    for (let schoolStudent of school) {
         console.log(`${schoolStudent}`);
     }
 }
 
 
 let coachingSystem = [["Adam Ji", "Practical Center", "Haque Academy"], ["The Lyceum", "SJ Academy", "Excellence Coaching centre"]];
-for(let coaching of coachingSystem) {
-    for(let coachingStudent of coaching) {
+for (let coaching of coachingSystem) {
+    for (let coachingStudent of coaching) {
         console.log(`${coachingStudent}`);
     }
 }
 
 
 let tutionSystem = [["Adam Ji", "Practical Center", "Haque Academy"], ["The Lyceum", "SJ Academy", "Excellence Coaching centre"]];
-for(let tution of tutionSystem) {
-    for(let tutionStudent of tution) {
+for (let tution of tutionSystem) {
+    for (let tutionStudent of tution) {
         console.log(`${tutionStudent}`);
+    }
+}
+
+let welfareCenter = [["Eidi", "Chipa", "JDC"], ["Saylani", "Alkhidmat", "Alamgir"]];
+for (let welfare of welfareCenter) {
+    for (let careTaker of welfare) {
+        console.log(`${welfareCenter}`);
     }
 }
 
