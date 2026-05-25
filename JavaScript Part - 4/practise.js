@@ -266,4 +266,9 @@ for (let welfare of welfareCenter) {
 }
 
 
-
+let hospitalNames = [["Shifa", "Rahat", "Fwc"], ["Agha Khan", "Liaquat National", "Al Jinnah"]];
+for (let hospital of hospitalNames) {
+    for (let hospitalCare of hospital) {
+        console.log(`${hospitalNames}`);
+    }
+}
