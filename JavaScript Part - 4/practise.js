@@ -272,3 +272,10 @@ for (let hospital of hospitalNames) {
         console.log(`${hospitalNames}`);
     }
 }
+
+let internShip = [["System Limited", "Folio 3", "10 Pearls"]];
+for(let interni of internShip){
+    for(let job of interni) {
+        console.log(`${internShip}`);
+    }
+}
