@@ -279,3 +279,11 @@ for(let interni of internShip){
         console.log(`${internShip}`);
     }
 }
+
+
+let profession = [["Software Engineer", "Computer Science", "Information Technology"], ["Electrical Engineer","Mechanical Engineer", "Civil Engineer"]];
+for(let prof of profession) {
+    for(let marJob of prof) {
+        console.log(`${profession}`);
+    }
+}
