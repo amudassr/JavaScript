@@ -287,3 +287,11 @@ for(let prof of profession) {
         console.log(`${profession}`);
     }
 }
+
+
+let designation = [["Interni", "Jr Soft Eng","Sr Soft Eng"],["Team Lead","Dept Lead","Center Lead"],["CTO","CFO","CEO"]];
+for(let desig of designation){
+    for (let desigJob of desig){
+        console.log(`${designation}`);
+    }
+} 
