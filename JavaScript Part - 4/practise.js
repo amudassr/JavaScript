@@ -274,24 +274,37 @@ for (let hospital of hospitalNames) {
 }
 
 let internShip = [["System Limited", "Folio 3", "10 Pearls"]];
-for(let interni of internShip){
-    for(let job of interni) {
+for (let interni of internShip) {
+    for (let job of interni) {
         console.log(`${internShip}`);
     }
 }
 
 
-let profession = [["Software Engineer", "Computer Science", "Information Technology"], ["Electrical Engineer","Mechanical Engineer", "Civil Engineer"]];
-for(let prof of profession) {
-    for(let marJob of prof) {
+let profession = [["Software Engineer", "Computer Science", "Information Technology"], ["Electrical Engineer", "Mechanical Engineer", "Civil Engineer"]];
+for (let prof of profession) {
+    for (let marJob of prof) {
         console.log(`${profession}`);
     }
 }
 
 
-let designation = [["Interni", "Jr Soft Eng","Sr Soft Eng"],["Team Lead","Dept Lead","Center Lead"],["CTO","CFO","CEO"]];
-for(let desig of designation){
-    for (let desigJob of desig){
-        console.log(`${designation}`);
+let designation = [["Interni", "Jr Soft Eng", "Sr Soft Eng"], ["Team Lead", "Dept Lead", "Center Lead"], ["CTO", "CFO", "CEO"]];
+for (let desig of designation) {
+    for (let desigJob of desig) {
+        console.log(`${desigJob}`);
     }
-} 
+}
+
+
+let countries = [
+    ["Karachi", "Lahore", "Islamabad"],
+    ["Dubai", "Abu Dhabi", "Sharjah"],
+    ["London", "Manchester", "Birmingham"]
+];
+
+for (let country of countries) {
+    for (let city of country) {
+        console.log(`${city}`);
+    }
+}
