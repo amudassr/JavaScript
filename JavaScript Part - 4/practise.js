@@ -308,3 +308,15 @@ for (let country of countries) {
         console.log(`${city}`);
     }
 }
+
+let games = [
+  ["FIFA 25", "GTA V", "Minecraft"],
+  ["God of War", "Spider-Man", "UFC 5"],
+  ["Fortnite", "PUBG", "Warzone"]
+];
+
+for (let gamesPlay of games) {
+  for (let game of gamesPlay) {
+    console.log(`${game}`);
+  }
+}
