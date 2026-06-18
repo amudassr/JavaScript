@@ -297,8 +297,111 @@ if ((num % 3 === 0) && (num + 1 == 15) || (num - 1 == 11)) {
 
 // truthy & falsy value 
 
-if(-0) {
+if (-0) {
       console.log("it has true value");
 } else {
       console.log("it has false value");
 }
+
+
+// Switch Statement 
+
+let days = "4";
+
+switch (days) {
+      case "1":
+            console.log("Monday is 1st day of the week");
+            break;
+      case "2":
+            console.log("Tuesday is the 2nd day of the week");
+            break;
+      case "3":
+            console.log("Wednesday is the 3rd day of the week");
+            break;
+      case "4":
+            console.log("Thursday is the 4th day of the week");
+            break;
+      case "5":
+            console.log("Friday is the 5th day of the week");
+            break;
+      case "6":
+            console.log("Saturday is the 6th day of the week");
+            break;
+      case "7":
+            console.log("Sunday is the 7th day of the week");
+            break;
+      default:
+            console.log("Invalid day");
+}
+
+
+// Month practise ques with switch stt 
+
+let month = 3;
+
+switch (month) {
+      case 1:
+            console.log("January");
+            break;
+      case 2:
+            console.log("Febuary");
+            break;
+      case 3:
+            console.log("March");
+            break;
+      case 4:
+            console.log("April");
+            break;
+      case 5:
+            console.log("May");
+            break;
+      case 6:
+            console.log("June");
+            break;
+      case 7:
+            console.log("July");
+            break;
+      case 8:
+            console.log("August");
+            break;
+      case 9:
+            console.log("September");
+            break;
+      case 10:
+            console.log("October");
+            break;
+      case 11:
+            console.log("November");
+            break;
+      case 12:
+            console.log("December");
+            break;
+      default:
+            console.log("wrong month");
+}
+
+
+// Alert & Prompts 
+
+// alert("Something is error!");
+
+console.log("this is a simple log mssg");
+console.error("this is a console error");
+console.warn("this is a console warning");
+
+// Prompt 
+
+// let rollNo = prompt("enter your roll no :");
+// console.log(rollNo);
+
+// let firstNames = prompt("enter your first name :");
+// let lastNames = prompt("enter your last name :");
+// let mssg = `Welcome ${firstNames + " " + lastNames}!`;
+// alert(mssg);
+
+// Student Profile 
+
+let stdName = prompt("enter your student name :");
+let stdRollno = prompt("enter your roll no :");
+let stdProfile = `Welcome ${stdName + " " + stdRollno}!`;
+alert(stdProfile);
