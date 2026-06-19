@@ -385,6 +385,7 @@ switch (month) {
 
 // alert("Something is error!");
 
+
 console.log("this is a simple log mssg");
 console.error("this is a console error");
 console.warn("this is a console warning");
