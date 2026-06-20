@@ -211,4 +211,54 @@ console.log(primary);
 
 // Slice in Arrays 
 
-let 
+let engine = ["70cc", "100cc", "110cc", "125cc", "150cc", "200cc"];
+console.log(engine.slice(2, 6));
+console.log(engine.slice(4));
+console.log(engine.slice(3, engine.length));
+console.log(engine.slice(-2));
+console.log(engine.length);
+console.log(engine.slice());
+console.log(engine.slice(-1));
+console.log(engine);
+
+// Splice in Arrays 
+
+let browser = ["chrome", "safari", "edge", "mozila", "firefox"];
+console.log(browser.splice(3));
+console.log(browser);
+console.log(browser.splice(1, 1));
+console.log(browser);
+console.log(browser.splice(0, 0, "mozila", "firefox"));
+console.log(browser);
+console.log(browser.splice(1, 2));
+console.log(browser);
+console.log(browser.splice(1, 0, "chrome"));
+console.log(browser);
+console.log(browser.splice(2, 1, "safari"));
+console.log(browser);
+console.log(browser.splice(1, 1));
+console.log(browser);
+console.log(browser.splice(0, 1, "edge"));
+console.log(browser);
+console.log(browser.splice(1, 0, "firefox"));
+console.log(browser);
+
+
+// Sort in Arrays
+
+let subjects = ["science", "english", "maths", "physics", "urdu", "arabic"];
+console.log(subjects.sort());
+console.log(subjects);
+
+
+// Practise Qs : 1 
+
+let start = ['january', 'july', 'march', 'august'];
+let final = start.splice(0, 2, "july", "june");
+console.log(start);
+
+
+// Practise Qs : 2 
+
+let lang = ['c', 'c++', 'html', 'javascript', 'python', 'java', 'c#', 'sql'];
+console.log(lang.reverse().indexOf('javascript'));
