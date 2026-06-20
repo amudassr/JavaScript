@@ -262,3 +262,63 @@ console.log(start);
 
 let lang = ['c', 'c++', 'html', 'javascript', 'python', 'java', 'c#', 'sql'];
 console.log(lang.reverse().indexOf('javascript'));
+
+let siblings = ["Ahmed", "Muhammad", "Abdullah"];
+console.log(siblings.sort());
+
+
+// Array Refrences 
+
+let arr = ['a', 'b', 'c', 'd'];
+console.log(arr);
+
+let arrCopy = arr;
+console.log(arrCopy);
+
+arrCopy === arr;
+arr.push('e', 'f');
+console.log(arrCopy);
+console.log(arr);
+
+arrCopy.pop();
+console.log(arr)
+
+arrCopy.pop();
+console.log(arr);
+
+arr = ['a', 'b', 'c', 'd'];
+console.log(arr);
+
+arr === arrCopy;
+arr.pop();
+console.log(arr);
+console.log(arrCopy);
+
+
+// Constant Array 
+
+const constArr = [1, 2, 3, 4, 5];
+console.log(constArr);
+
+constArr.push(6);
+console.log(constArr);
+
+constArr.pop();
+console.log(constArr);
+
+// constArr = [7, 8, 9, 3]
+// console.log(constArr);
+
+
+// Nested Arrays 
+
+let nums = [[1, 2], [2, 4], [3, 6], [4, 8]];
+console.log(nums);
+console.log(nums[2][0]);
+
+
+// Practise Qs 
+
+let ticTac = [["x", null, "O"], [null, "x", null], ["O", null, "x"]];
+console.log(ticTac[0][1] = 'O');
+console.log(ticTac);
