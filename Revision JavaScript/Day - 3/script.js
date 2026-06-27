@@ -207,14 +207,102 @@ while (br <= 5) {
 
 
 // loops with Array 
-console.log('loops with Array');
+console.log('Fruits with Array');
+
+// Fruits with Array 
 
 let fruits = ['mango', 'apple', 'orange', 'grapes', 'banana'];
 for (let f = 0; f < fruits.length; f++) {
     console.log(f, fruits[f]);
 }
 
+// Cars with Array
+console.log("Cars with Array")
+
 let cars = ['bmw', 'xuv', 'toyota', 'honda', 'suzuki'];
-for(let c= 0; c<cars.length; c++){
+for (let c = 0; c < cars.length; c++) {
     console.log(c, cars[c]);
+}
+
+// Colors with Array 
+console.log("Colors with Array");
+
+let colors = ["yellow", "greeen", "pink", "orange", "blue"];
+colors.push("black");
+for (let co = 0; co < colors.length; co++) {
+    console.log(co, colors[co]);
+}
+
+console.log("Backward color print");
+for (colorsBack = colors.length - 1; colorsBack >= 0; colorsBack--) {
+    console.log(colorsBack, colors[colorsBack]);
+}
+
+
+// Loops with Nested Arrays 
+console.log("Loops with Nested Arrays");
+
+let heroes = [
+    ["ironman", "spiderman", "thor"],
+    ["superman", "wonder women", "flash"]
+]
+
+for (let h = 0; h < heroes.length; h++) {
+    console.log(h, heroes[h], heroes[h].length);
+    for (let j = 0; j < heroes[h].length; j++) {
+        console.log(`j=${j}, ${heroes[h][j]}`)
+    }
+}
+
+// Student data with Nested Array 
+console.log("Student data with Nested Array");
+
+let students = [["Ayan", 91], ["Hassan", 90], ["Ali", 94]];
+for (let stu = 0; stu < students.length; stu++) {
+    console.log(`Info of student #${stu + 1}`);
+    for (let inStu = 0; inStu < students[stu].length; inStu++) {
+        console.log(students[stu][inStu]);
+    }
+}
+
+
+// Q1: Movies List
+// console.log("Movie List");
+
+let movies = [
+    ["Action", "John Wick", "Mad Max"],
+    ["Comedy", "Hera Pheri", "Andaz Apna Apna"]
+];
+
+for (let mov = 0; mov < movies.length; mov++) {
+    for (let inMov = 1; inMov < movies[mov].length; inMov++) {
+        console.log('Movie: ' + movies[mov][inMov]);
+    }
+}
+
+
+// Q2: Product Prices
+
+let products = [["laptop", 1200000], ["Mobile", 60000], ["Watch", 15000]];
+
+for (let pro = 0; pro < products.length; pro++) {
+    console.log(`Product ${pro + 1}: ${products[pro][0]} - Rs. ${products[pro][1]}`);
+}
+
+
+// Q3: Total Marks Calculator
+
+let results = [
+    ["Sara", 88, 92, 79],
+    ["Bilal", 70, 65, 80]
+];
+
+for (let sData = 0; sData < results.length; sData++) {
+    let total = 0;
+    console.log(results[sData][0]);
+    for (let sMarks = 1; sMarks < results[sData].length; sMarks++) {
+        console.log(results[sData][sMarks]);
+        total = total + results[sData][sMarks];
+    }
+    console.log("Total:", total);
 }
