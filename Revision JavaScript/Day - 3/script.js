@@ -306,3 +306,35 @@ for (let sData = 0; sData < results.length; sData++) {
     }
     console.log("Total:", total);
 }
+
+
+// for of loop
+console.log("for of loops")
+
+let veges = ["tomatto", "potato", "onion", "garlic", "cabbage", "leadyfinger"];
+
+for (vege of veges) {
+    console.log(vege);
+}
+
+let collegeName = "BahriaCollege";
+for (college of collegeName) {
+    console.log(college);
+}
+
+
+// Nested for of loop
+
+let friends = [["Muzammil", "Ibrahim", "Adeel"], ["Haseeb", "Usman", "Tahir"]];
+for (let frnds of friends) {
+    for (let moreFrnds of frnds) {
+        console.log(moreFrnds);
+    }
+}
+
+let heros = [["ironman", "spiderman", "thor"], ["superman", "wonder women", "flash"]];
+for(let list of heros){
+    for(let hero of list){
+        console.log(hero);
+    }
+}
