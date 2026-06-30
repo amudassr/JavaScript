@@ -173,6 +173,30 @@ console.log(Math.ceil(ceilNeg));
 
 console.log(Math.random());
 console.log(Math.random());
-console.log(Math.random());
-console.log(Math.random());
-console.log(Math.random()); 
+
+console.log("Print Random Integers: 1 to 10");
+
+// Random Integers
+
+// let num = Math.random();
+// console.log(num);
+
+// num = num * 10;
+// console.log(num);
+
+// num = Math.floor(num);
+// console.log(num);
+
+// num = num + 1;
+// console.log(num);
+
+
+// let random = Math.floor(Math.random() * 10 + 1);
+// console.log(random);
+
+// let number = Math.floor(Math.random() * 26 + 50);
+// console.log(number);
+
+let num = Math.floor(Math.random() * 100 + 1);
+console.log(num);
+
