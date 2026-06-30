@@ -200,3 +200,36 @@ console.log("Print Random Integers: 1 to 10");
 let num = Math.floor(Math.random() * 100 + 1);
 console.log(num);
 
+
+
+// Guessing Number Game
+
+let max = prompt("enter the max number");
+
+let randomMax = Math.floor(Math.random() * max) + 1;
+
+let guessMax = prompt("guess the max number");
+
+while (true) {
+    if (guessMax == "quit") {
+        console.log("User quit");
+        break;
+    }
+
+    if (guessMax == randomMax) {
+        console.log("you are right! congrates. random number was", randomMax);
+        break;
+    }
+
+    else if (guessMax < randomMax) {
+        guessMax = prompt("hint: your guess was too small. please try again");
+    }
+
+    else {
+        guessMax = prompt("hint: your guess was too larger. please try again");
+     }
+
+    
+}
+
+
