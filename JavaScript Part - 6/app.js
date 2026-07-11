@@ -266,3 +266,43 @@ function first() {
 console.log(msg);
 
 first();
+
+
+// Function Expression 
+
+console.log("Functions Expressions")
+
+let numberSum = function (a, b) {
+    return a + b;
+}
+
+console.log(numberSum(2, 5));
+
+
+let hi = function () {
+    return "hello!";
+}
+
+console.log(hi());
+
+
+hi = function () {
+    return "Good Evening!";
+}
+
+console.log(hi());
+
+
+// Higher Order Functions 
+
+function multipleGreet(func, n) {
+    for (let m = 1; m <= n; m++) {
+        func();
+    }
+}
+
+let mssgGreet = function () {
+    console.log("hello!");
+}
+
+multipleGreet(mssgGreet, 4);
