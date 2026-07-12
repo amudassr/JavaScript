@@ -306,3 +306,33 @@ let mssgGreet = function () {
 }
 
 multipleGreet(mssgGreet, 4);
+
+
+// High Order Function (return) 
+
+let request = "odd";  // odd
+
+function oddOrEvenFactory(request) {
+    if (request == "even") {
+        return function (e) {
+            return (e % 2 == 0);
+        }
+
+    } else if (request == "odd") {
+        return function (o) {
+            return (!(o % 2 == 0));
+        }
+
+    }
+}
+
+let func = oddOrEvenFactory(request);
+
+console.log(func);
+console.log(func(3));
+console.log(func(8));
+
+console.log(func);
+console.log(func(9));
+console.log(func(4));
+

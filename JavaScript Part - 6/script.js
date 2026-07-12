@@ -323,3 +323,76 @@ let repeat = function () {
 repeatFunction(repeat, 3);
 
 
+// Practise Qs 4 
+
+function sayHelloTwice(helloo) {
+    helloo();
+    helloo();
+}
+
+let helloo = function () {
+    console.log("Say Hello!");
+}
+
+sayHelloTwice(helloo);
+
+
+
+// Practise Qs 5 
+
+function runsFunction(run) {
+    run();
+}
+
+let run = function () {
+    console.log("Run Function");
+}
+
+runsFunction(run);
+
+
+
+// Practise Qs 6 
+
+function repeatFunction(repeatFunc, nFunc) {
+    for (let f = 1; f <= nFunc; f++) {
+        repeatFunc();
+    }
+}
+
+let repeatFunc = function () {
+    console.log("Repeat Function");
+}
+
+repeatFunction(repeatFunc, 22);
+
+
+
+// High Order Function (return)     
+
+let request = "even";  // even
+
+function oddOrEvenTest(request) {
+    if (request == "odd") {
+        return function (o) {
+            return (!(o % 2 == 0));
+        }
+
+    } else if (request == "even") {
+        return function (e) {
+            return (e % 2 == 0);
+        }
+
+    } else {
+        console.log("wrong request");
+    }
+}
+
+let func = oddOrEvenTest(request);
+console.log(func);
+console.log(func(3));
+console.log(func(8));
+
+console.log(func);
+console.log(func(6));
+console.log(func(9));
