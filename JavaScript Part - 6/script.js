@@ -396,3 +396,46 @@ console.log(func(8));
 console.log(func);
 console.log(func(6));
 console.log(func(9));
+
+
+
+// Methods in JS 
+
+let calculator = {
+    add: function (a, b) {
+        return a + b;
+    },
+
+    sub: function (a, b) {
+        return a - b;
+    },
+
+    multi: function (a, b) {
+        return a * b;
+    },
+
+    divide: function (a, b) {
+        return a / b;
+    }
+};
+
+console.log(calculator.divide(20, 2));
+
+
+// Shorthand 
+
+let studentMarks = {
+    hamza(obtained, total) {
+        return (obtained/total*100);
+    },
+
+    hassan(obtained, total) {
+        return (obtained/total*100);
+    },
+
+    mahmood(obtained, total) {
+        return (obtained/total*100);
+    }
+};
+
+console.log(studentMarks.mahmood(850, 1100));
