@@ -69,3 +69,7 @@ function countVowels(sentence) {
 }
 
 console.log(countVowels(sentence));
+
+// Pracitse Qs 5
+
+let seven = "hello";
