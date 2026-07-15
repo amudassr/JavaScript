@@ -13,7 +13,7 @@ let students = {
     }
 }
 
-students.getAvg();
+console.log(students.getAvg());
 
 
 // try & catch 
@@ -89,4 +89,12 @@ setTimeout(() => {
 
 console.log("Welcome to");
 
+
+// Set Interval 
+
+let id = setInterval(() => {
+    console.log("Runs again & again every 2 seconds");
+}, 2000);
+
+console.log(id);
 
