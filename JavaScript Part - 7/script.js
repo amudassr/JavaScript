@@ -81,20 +81,76 @@ console.log(mul(2, 4));
 
 // Set timeout 
 
-console.log("Hi there!");
+// console.log("Hi there!");
 
-setTimeout(() => {
-    console.log("My Coading Journey");
-}, 4000);
+// setTimeout(() => {
+//     console.log("My Coading Journey");
+// }, 4000);
 
-console.log("Welcome to");
+// console.log("Welcome to");
 
 
 // Set Interval 
 
-let id = setInterval(() => {
-    console.log("Runs again & again every 2 seconds");
-}, 2000);
+// let id = setInterval(() => {
+//     console.log("Runs again & again every 2 seconds");
+// }, 2000);
 
-console.log(id);
+// console.log(id);
+
+
+// this in arrow function 
+
+const student = {
+    name: "aman",
+    marks: 89,
+    prop: this,  // global scope 
+    getName() {
+        return this.name;
+    },
+    // getMarks: () => {
+    //     console.log(this);  // parent's scope -> window
+    //     return this.marks;
+    // },
+
+    getInfo1: function () {
+        setTimeout(() => {
+            console.log(this);  // parent  -> student
+        }, 2000);
+    },
+
+    getInfo2: function () {
+        setTimeout(function () {
+            console.log(this);  // 
+        }, 2000);
+    },
+};
+
+console.log(student);
+console.log(student.getName());
+// console.log(student.getMarks());
+
+
+// Practise Qs 
+
+// Qs : 1
+
+let sqfunc = (n) => {
+    return n * n;
+}
+
+console.log(sqfunc(4));
+
+
+// Qs : 2 
+
+// let id = setInterval(() => {
+//  console.log("Hello World");
+// }, 2000);
+
+
+setTimeout(()=>{
+    clearInterval(id);
+    console.log("clear interval run");
+}, 10000);
 
