@@ -53,6 +53,11 @@ let user2  = {
     greet : greet
 }; 
 
+let user3 = {
+    name : "amna",
+    greet : greet
+};
+
 
 function greet(){
     console.log(this.name);
