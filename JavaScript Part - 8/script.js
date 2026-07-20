@@ -9,3 +9,13 @@ let print = function(el){
 }
 
 arr.forEach(print);
+
+
+
+let arrayEach = [,10,12,14,16,18];
+
+let printEach = function(each){
+    console.log(each);
+}
+
+arrayEach.forEach(printEach);
