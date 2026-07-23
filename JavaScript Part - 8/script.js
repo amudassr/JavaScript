@@ -1,44 +1,74 @@
 // Array Methods 
-
 // forEach 
 
-let arr = [1, 2, 3, 4, 5, 6];
+let array = [1, 2, 3, 4, 5];
 
-let print = function (el) {
-    console.log(el);
-}
+// let print = function print(element){
+//     console.log(element);
+// }
 
-arr.forEach(print);
-
-// e.g : 1
-
-let arrayEach = [10, 12, 14, 16, 18];
-
-let printEach = function (each) {
-    console.log(each);
-}
-
-arrayEach.forEach(printEach);
+// array.forEach(print);
 
 
-// e.g : 2
-
-let singleArr = [99, 101, 41, 87, 27];
-
-let printSingle = function (single) {
-    console.log(single);
-}
-
-singleArr.forEach(single);
+// array.forEach(function(element){
+//     console.log(element);
+// });
 
 
-// e.g : 3 
+array.forEach(element => {
+    console.log(element);
+});
 
-let newArr = [29, 12, 23, 24, 44, 19];
 
-let printNewArr = function (arr) {
-    console.log(arr);
-}
+// Example: 1 
 
-newArr.forEach(arr);
+let studentData = [{
+    name: "Hassan",
+    marks: 91
+},
+{
+    name: "Shoaib",
+    marks: 87.5
+},
+{
+    name: "Sami",
+    marks: 94.2
+}];
 
+studentData.forEach((student) => {
+    console.log(student.marks);
+});
+
+
+// Example: 2
+
+let products = [
+    {
+        title: "Laptop",
+        price: 85000
+    },
+
+    {
+        title: "Mouse",
+        price: 13000
+    },
+
+    {
+        title: "Keyboard",
+        price: 21000
+    }
+];
+
+products.forEach(function (product) {
+    console.log(`${product.title} costs Rs. ${product.price}`)
+});
+
+
+// Example: 3
+
+let numbers = [4, 9, 15, 22, 30, 7];
+numbers.forEach(function (num) {
+    if (num % 2 == 0) {
+        console.log(num);
+    };
+});
