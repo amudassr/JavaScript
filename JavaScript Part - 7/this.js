@@ -54,19 +54,73 @@ console.log(team.getScore());
 
 // Example: 2
 
-let car = {
-    brand: "Toyota",
-    start: function () {
-        console.log("Starting...", this.brand);
+// let car = {
+//     brand: "Toyota",
+//     start: function () {
+//         console.log("Starting...", this.brand);
 
-        setTimeout(function () {
-            console.log("Engine check:", this.brand);
-        }, 1000);
+//         setTimeout(function () {
+//             console.log("Engine check:", this.brand);
+//         }, 1000);
 
-        setTimeout(() => {
-            console.log("Fuel check:", this.brand);
-        }, 1000);
+//         setTimeout(() => {
+//             console.log("Fuel check:", this.brand);
+//         }, 1000);
+//     }
+// }
+
+// console.log(car.start());
+
+
+// Example: 3 
+
+let user = {
+    name: "Habib",
+    city: "Karachi",
+    intro: function () {
+        return `${this.name} lives in ${this.city}`;
     }
-}
+};
 
-console.log(car.start());
+console.log(user.intro());
+
+
+// Example: 4 
+
+let counter = {
+    count: 0,
+    increment: function () {
+        this.count++;
+        console.log(this.count);
+    }
+};
+
+let btn = {
+    handleClick: counter.increment
+};
+
+console.log(btn.handleClick());
+
+
+// Example: 5
+
+let bank = {
+    balance: 1000,
+    showBalance: function () {
+        console.log("Direct:", this.balance);
+
+        function inner() {
+            console.log("Inner normal:", this.balance);
+        };
+
+        const innerArrow = () => {
+            console.log("Inner Arrow:", this.balance);
+        };
+
+        inner();
+        innerArrow();
+
+    }
+};
+
+console.log(bank.showBalance());
