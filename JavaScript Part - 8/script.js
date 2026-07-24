@@ -72,3 +72,13 @@ numbers.forEach(function (num) {
         console.log(num);
     };
 });
+
+
+// Example: 4
+
+let numbers1 = [4, 9, 15, 22, 30, 7];
+numbers1.forEach(function (num1) {
+    if (num1 % 2 == 0) {
+        console.log(num1);
+    };
+});
